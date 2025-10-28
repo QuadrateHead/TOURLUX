@@ -1,0 +1,108 @@
+.header {
+      width: 100%;
+		&__contacts-section{
+			background-color: $p-pink;
+		}
+		&__contacts {
+         height: rem(60);
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+         align-items: center;
+         color: $white;
+		}
+
+		&__gmail-address {
+         display: flex;
+         flex-direction: row;
+			justify-content: space-between;
+         height: rem(26);
+			width: rem(817);
+			gap:rem(50);
+		}
+
+		&__address {
+         display: flex;
+         align-items: center;
+         gap: rem(15);
+		}
+
+      &__gmail {
+         display: flex;
+         align-items: center;
+         gap: rem(15);
+		}
+
+		&__number {
+         display: flex;
+         align-items: center;
+         gap: rem(15);
+		}
+
+		&__logo {
+
+			&--address {
+            width: rem(26);
+			}
+
+			&--gmail {
+				width: rem(26);
+			}
+
+			&--number {
+				width: rem(26);
+			}
+		}
+
+		&__info {
+
+			&--address {
+			}
+
+			&--gmail {
+			}
+
+			&--number {
+			}
+		}
+
+		&__social-media {
+         display: flex;
+         gap: rem(20);
+		}
+
+		&__media-btn {
+		}
+
+		&__media-img {
+			width: rem(26);
+		}
+
+      //Header//
+		&__header {
+         height: rem(100);
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+		}
+      &__main-logo{
+         height: rem(50);
+      }
+
+		&__nav {
+         display: flex;
+         gap: rem(35);
+         color: $navy;
+		}
+
+		&__nav-links {
+			
+		}
+
+		&__get-started {
+			display: flex;
+			gap: rem(13);
+		}
+
+}
+

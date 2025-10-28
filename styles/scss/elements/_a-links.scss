@@ -1,0 +1,14 @@
+.a{
+   &--pink{
+      color: $p-pink;
+      &:hover{
+         color: $navy;
+      }
+   }
+   &--navy{
+      color: $navy;
+      &:hover{
+         color: $p-pink;
+      }
+   }
+}
