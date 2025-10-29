@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<script>
+      // Если сайт запущен с GitHub Pages
+      if (location.hostname === "quadratehead.github.io") {
+         const base = document.createElement("base");
+         base.href = "https://quadratehead.github.io/TOURLUX/";
+         document.head.prepend(base);
+      }
+</script>
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>TOURLUX</title>
    <link rel="stylesheet" href="styles/css/style.css">
 </head>
-
 <body class="index__body">
    <header class="header">
       <div class="header__contacts-section">
@@ -364,14 +370,7 @@
          </container>
       </div>
    </footer>
-   <script>
-      // Если сайт запущен с GitHub Pages
-      if (location.hostname === "quadratehead.github.io") {
-         const base = document.createElement("base");
-         base.href = "https://quadratehead.github.io/TOURLUX/";
-         document.head.prepend(base);
-      }
-</script>
+   
 </body>
 
 
