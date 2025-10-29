@@ -1231,7 +1231,7 @@ input[type=file] {
 .get-it-now {
   width: 100%;
   height: 37.5625rem;
-  background-image: url("/img/images/Banner4Image.jpg");
+  background-image: url("../../img/images/Banner4Image.jpg");
 }
 .get-it-now__container {
   display: -webkit-box;
