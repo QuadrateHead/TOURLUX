@@ -364,6 +364,14 @@
          </container>
       </div>
    </footer>
+   <script>
+      // Если сайт запущен с GitHub Pages
+      if (location.hostname === "quadratehead.github.io") {
+         const base = document.createElement("base");
+         base.href = "https://quadratehead.github.io/TOURLUX/";
+         document.head.prepend(base);
+      }
+</script>
 </body>
 
 
