@@ -868,7 +868,7 @@ input[type=file] {
           align-items: center;
 }
 .get-to-know__check-list-item::before {
-  content: url("/img/icons/Checklist.svg");
+  content: url("../../img/icons/Checklist.svg");
   width: 1.5625rem;
   height: 1.5625rem;
   margin-right: 0.9375rem;

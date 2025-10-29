@@ -58,7 +58,7 @@
          display: flex;
          align-items: center;
          &::before{
-            content: url("/img/icons/Checklist.svg");
+            content: url("../../img/icons/Checklist.svg");
             width: rem(25);
             height: rem(25);
             margin-right: rem(15);
