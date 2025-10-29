@@ -484,7 +484,7 @@ input[type=file] {
 .hero {
   width: 100%;
   height: 57.5rem;
-  background-image: url("/img/images/Banner1Image.jpg");
+  background-image: url("../../img/images/Banner1Image.jpg");
 }
 .hero__title-slide {
   display: -webkit-box;
