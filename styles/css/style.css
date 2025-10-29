@@ -666,7 +666,7 @@ input[type=file] {
 .hero-other {
   width: 100%;
   height: 20rem;
-  background-image: url("/img/images/AboutUs/Banner.jpg");
+  background-image: url("../../img/images/AboutUs/Banner.jpg");
 }
 .hero-other__container {
   display: -webkit-box;
@@ -900,7 +900,7 @@ input[type=file] {
 .counter {
   width: 100%;
   height: 20rem;
-  background-image: url("/img/images/Banner2Image.jpg");
+  background-image: url("../../img/images/Banner2Image.jpg");
 }
 .counter__container {
   display: -webkit-box;
@@ -1074,7 +1074,7 @@ input[type=file] {
 }
 
 .tour-type {
-  background-image: url("/img/images/Banner3Image.jpg");
+  background-image: url("../../img/images/Banner3Image.jpg");
 }
 .tour-type__container {
   display: -webkit-box;
@@ -1393,7 +1393,7 @@ input[type=file] {
 .are-you-ready {
   width: 100%;
   height: 34.3125rem;
-  background-image: url("/img/images/Banner5Image.jpg");
+  background-image: url("../../img/images/Banner5Image.jpg");
 }
 .are-you-ready__container {
   height: 100%;
@@ -1560,7 +1560,7 @@ input[type=file] {
   color: #FFFFFF;
 }
 .footer__contacts-section {
-  background-image: url("/img/images/Footer-Image.jpg");
+  background-image: url("../../img/images/Footer-Image.jpg");
 }
 .footer__copyright-section {
   background-color: #061A3A;
