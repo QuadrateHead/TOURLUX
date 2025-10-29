@@ -1,0 +1,56 @@
+.get-it-now {
+   width: 100%;
+   height: rem(601);
+      background-image: url("/img/images/Banner4Image.jpg");
+		&__container {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         padding-bottom: rem(133);
+         padding-top: rem(133);
+		}
+
+		&__caption {
+         font-family: $second-family;
+         font-weight: 700;
+         font-size: rem(40);
+         letter-spacing: 0.03em;
+         text-transform: capitalize;
+         color: $p-pink;
+         margin-bottom: rem(30);
+		}
+
+		&__title {
+         font-family: $second-family;
+         font-weight: 700;
+         font-size: rem(80);
+         letter-spacing: 0.03em;
+         text-transform: capitalize;
+         color: $p-pink;
+		}
+
+		&__percent {
+         font-family: $first-family;
+         font-weight: 700;
+         font-size: rem(80);
+         letter-spacing: 0.02em;
+         text-transform: uppercase;
+         color: $white;
+         margin: rem(51) 0 rem(49);
+         line-height: 1;
+         &>b{
+            font-family: $first-family;
+            font-weight: 700;
+            font-size: rem(50);
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+            color: $white;
+            line-height: 1;
+         }
+		}
+
+		&__btn {
+         background-color:$navy--shade2;
+		}
+}
+

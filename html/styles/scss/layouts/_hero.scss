@@ -1,0 +1,127 @@
+.hero {
+	width: 100%;
+   height: rem(920);
+   background-image: url("/img/images/Banner1Image.jpg");
+		&__title-slide {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			width: 100%;
+   		height: rem(920);
+			gap: rem(50);
+		}
+
+		&__heading {
+			width: rem(622);
+			color: $white;
+		}
+
+		&__subtitle {
+			color: $white;
+		}
+
+		&__form {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			background-color: $navy;
+			width: 100%;
+			height: rem(60);
+			border-radius: rem(5);
+		}
+
+		&__address {
+
+			&--label {
+				height: 100%;
+				width: 100%;
+				border-right: rgba($color: $white, $alpha: 0.5) rem(2) solid;
+				display: flex;
+				align-items: center;
+			}
+
+			&--icon {
+				margin-right: rem(15);
+				margin-left: rem(20);
+			}
+
+         &--input {
+				color: $white;
+				&::placeholder{
+					color: $white;
+					opacity: 1;
+				}
+			}
+		}
+		//?Решить проблему с шириной дат//
+		&__date {
+
+			&--label {
+				height: 100%;
+				width: 100%;
+				border-right: rgba($color: $white, $alpha: 0.5) rem(2) solid;
+				display: flex;
+				align-items: center;
+				//width: rem(338);
+				& span{
+					color: white;
+  					font-size: rem(18);
+				}
+			}
+			&--icon {
+				margin-right: rem(15);
+				margin-left: rem(20);
+			}
+			&--span{
+				margin: 0;
+			}
+			&--input {
+				color: $white;
+				appearance: none;
+				position: relative;
+				&::placeholder{
+					color: $white;
+					opacity: 1;
+				}
+				
+				&::-webkit-calendar-picker-indicator {
+					opacity: 0;
+					position: absolute;
+					width: 100%;
+					height: 100%;
+					cursor: pointer;
+				}
+			}
+		}
+
+		&__num {
+
+			&--label {
+				height: 100%;
+				width: 100%;
+				display: flex;
+				align-items: center;
+			}
+
+			&--icon {
+				margin-right: rem(15);
+				margin-left: rem(20);
+			}
+
+			&--input {
+				color: $white;
+				&::placeholder{
+					color: $white;
+					opacity: 1;
+				}
+			}
+		}
+
+		&__btn {
+			min-width: rem(210);
+			height: rem(60);
+			display: flex;
+			border-radius: 0 rem(4) rem(4) 0;
+		}
+}
+

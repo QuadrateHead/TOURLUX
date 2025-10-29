@@ -1,0 +1,88 @@
+.gallery {
+   width: 100%;
+		&__container {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         padding-top: rem(120);
+         padding-bottom: rem(120);
+         gap: rem(80);
+		}
+
+		&__heading {
+         display: flex;
+         flex-direction: column;
+         text-align: center;
+         gap: rem(30);
+		}
+
+		&__caption {
+         font-family: $second-family;
+         font-weight: 700;
+         font-size: rem(30);
+         letter-spacing: 0.03em;
+         text-transform: capitalize;
+         color: $navy;
+		}
+
+		&__title {
+         font-family: $first-family;
+         font-weight: 700;
+         font-size: rem(50);
+         letter-spacing: 0.03em;
+         text-transform: capitalize;
+         color: $p-pink;
+         &>b{
+            font-family: $first-family;
+            font-weight: 700;
+            font-size: rem(50);
+            letter-spacing: 0.03em;
+            text-transform: capitalize;
+            color: $navy;
+         }
+		}
+
+		&__slides {
+         display: flex;
+         flex-direction: column;
+         width: 100%;
+         gap: rem(30);
+		}
+
+		&__line {
+         display: flex;
+         flex-direction: row;
+         gap: rem(30);
+         height: rem(300);
+		}
+      //!решено//
+		&__block {
+         border-radius: rem(5);
+         display: flex;
+         align-items: center;
+         justify-content: center;
+			&--2 {
+            width: (790/1200)*100%;
+			}
+
+			&--1 {
+            width: (380/1200)*100%;
+			}
+		}
+
+		&__img {
+         
+		}
+
+		&__country {
+         font-family: $second-family;
+         font-weight: 700;
+         font-size: rem(40);
+         letter-spacing: 0.02em;
+         text-transform: uppercase;
+         color: $white;
+      }
+
+		&__btn {
+		}
+}

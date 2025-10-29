@@ -1,0 +1,76 @@
+.btn{
+   padding: rem(13) rem(39);
+   height: rem(50);
+   width: fit-content;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: rem(4);
+   font-family: $first-family;
+   font-weight: 600;
+   font-size: rem(16);
+   letter-spacing: 0.02em;
+   text-transform: uppercase;
+   color: $white;
+   gap: rem(13);
+   &--navy{
+      background-color: $navy;
+      color:$white;
+      &:hover{
+         background-color: #FFF2EF;
+         color: $navy;
+      }
+   }
+   &--p-navy{
+      background-color: $navy;
+      color:$white;
+      &:hover{
+         background-color: $p-pink;
+         color: $white;
+      }
+   }
+   &--pink{
+      background-color: $p-pink;
+      color:$white;
+      &:hover{
+         background-color: #FFF2EF;
+         color: $navy;
+      }
+   }
+   &--n-pink{
+      background-color: $p-pink;
+      color:$white;
+      &:hover{
+         background-color: $navy;
+         color: $white;
+      }
+   }
+   &--w-pink{
+      background-color:  #FFF2EF;
+      color: $navy;
+      &:hover{
+         background-color: $p-pink;
+         color: $white;
+      }
+   }
+   &--tr-pink{
+      backdrop-filter: blur(rem(4));
+      background: rgba(255, 255, 255, 0.1);
+      border: rem(1) solid #ff7c5b;
+      border-radius: rem(5);
+      color: $white;
+      &:hover{
+         background-color: $p-pink;
+         color: $white;
+      }
+   }
+
+   &--white{
+      background-color: $white;
+      color: $navy;
+      :hover{
+         background-color: $navy;
+         color: $white;
+      }
+   }
+}
