@@ -1,10 +1,371 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta http-equiv="refresh" content="0; url=html/index.html" />
-    <title>Redirecting...</title>
-  </head>
-  <body>
-    <p>If you are not redirected automatically, <a href="html/index.html">click here</a>.</p>
-  </body>
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>TOURLUX</title>
+   <base href="../">
+   <link rel="stylesheet" href="/styles/css/style.css">
+</head>
+
+<body class="index__body">
+   <header class="header">
+      <div class="header__contacts-section">
+         <container class="global-container header__contacts">
+            <div class="header__gmail-address">
+               <div class="header__address">
+                  <img src="/img/icons/Header/address/Subtract.svg" alt="" class="header__logo--address">
+                  <p class="header__info--address work--14">4845 Confederate Drive Utica, NY 13502</p>
+               </div>
+               <div class="header__gmail">
+                  <img src="/img/icons/Header/address/Mail.svg" alt="" class="header__logo--gmail">
+                  <p class="header__info--gmail work--14">tourluxtravel@company.com</p>
+               </div>
+               <div class="header__number">
+                  <img src="/img/icons/Header/address/Call.svg" alt="" class="header__logo--number">
+                  <p class="header__info--number work--14">1 562 867 5309</p>
+               </div>
+            </div>
+            <div class="header__social-media">
+               <button class="header__media-btn"><img src="/img/icons/Header/social-media/Facebook.svg" alt="" class="header__media-img"></button>
+               <button class="header__media-btn"><img src="/img/icons/Header/social-media/Insta.svg" alt="" class="header__media-img"></button>
+               <button class="header__media-btn"><img src="/img/icons/Header/social-media/Linkedin.svg" alt="" class="header__media-img"></button>
+               <button class="header__media-btn"><img src="/img/icons/Header/social-media/Twitter.svg" alt="" class="header__media-img"></button>
+               <button class="header__media-btn"><img src="/img/icons/Header/social-media/Youtube.svg" alt="" class="header__media-img"></button>
+            </div>
+         </container>
+      </div>
+      <div class="header__header-section">
+         <container class="global-container header__header">
+            <img src="/img/icons/Tourlux.png" alt="" class="header__main-logo">
+            <nav class="header__nav">
+               <a href="index.html" class="header__nav-links links-18 a--pink">Home</a>
+               <a href="about-us.html" class="header__nav-links links-18 a--navy">About Us</a>
+               <a href="#" class="header__nav-links links-18 a--navy">Tour</a>
+               <a href="#" class="header__nav-links links-18 a--navy">Gallery</a>
+               <a href="#" class="header__nav-links links-18 a--navy">Pages</a>
+            </nav>
+            <button class="header__get-started btn btn--navy">Get Started <img src="/img/icons/btn/Arrow.svg" alt="" class="header__arrow"></button>
+         </container>
+      </div>
+   </header>
+   <div class="hero">
+      <container class="global-container hero__title-slide">
+            <h1 class="hero__heading h1-85">Explore Your Travel</h1>
+            <p class="hero__subtitle p-20">Discover your next great adventure, become an explorer to get started!</p>
+            <form action="post" class="hero__form">
+               <label for="WhereTo?" class="hero__address--label">
+                  <img src="/img/icons/hero/Location.svg" alt="" class="hero__address--icon">
+                  <input type="text" name="WhereTo?" id="WhereTo?" class = "hero__address--input p-16--form" placeholder="Where To?">
+               </label>
+               <!--Не решено-->
+               <label class="hero__date--label">
+                  <img src="/img/icons/hero/Calender.svg" alt="" class="hero__date--icon">
+                  <input type="date" name="DD/MM/YY" id="DD/MM/YY" class = "hero__date--input p-16--form" placeholder="DD/MM/YY">
+               </label>
+               <label for="NumberOfPerson" class="hero__num--label">
+                  <img src="/img/icons/hero/Person.svg" alt="" class="hero__num--icon">
+                  <input type="text" name="NumberOfPerson" id="NumberOfPerson" class = "hero__num--input p-16--form"" placeholder = "Number Of Person">
+               </label>
+               <button class="btn btn--pink hero__btn">BOOK NOW<img src="/img/icons/btn/Arrow.svg" alt="" class="arrow"></button>
+            </form>
+      </container>
+   </div>
+   <div class="info">
+      <container class="global-container info__container">
+            <div class="we-are-tourlux">
+               <div class="we-are-tourlux__block">
+                  <div class="we-are-tourlux__heading">
+                     <img src="/img/icons/we-are-tourlux/Booking.png" alt="" class="we-are-tourlux__icon">
+                     <h1 class="we-are-tourlux__title">Best Booking</h1>
+                  </div>
+                  <p class="we-are-tourlux__description">Aenean sed nibh a magna posuere into tempor. Nunc faucibus nunc aliquet. Donec congue, nunc vel tempor</p>
+               </div>
+               <div class="we-are-tourlux__block">
+                  <div class="we-are-tourlux__heading">
+                     <img src="/img/icons/we-are-tourlux/Hotel.png" alt="" class="we-are-tourlux__icon">
+                     <h1 class="we-are-tourlux__title">Best Hotels</h1>
+                  </div>
+                  <p class="we-are-tourlux__description">We have always made a living to make movies, never the other way around. We first I washed dishes in a seafood</p>
+               </div>
+               <div class="we-are-tourlux__block">
+                  <div class="we-are-tourlux__heading">
+                     <img src="/img/icons/we-are-tourlux/Transport.png" alt="" class="we-are-tourlux__icon">
+                     <h1 class="we-are-tourlux__title">Private Transport</h1>
+                  </div>
+                  <p class="we-are-tourlux__description">Aenean sed nibh a magna posuere. Nunc faucibus nunc aliquet. Donec congue, nunc vel tempor</p>
+               </div>
+            </div>
+            <div class="get-to-know">
+               <div class="get-to-know__text-box">
+                  <h1 class="get-to-know__caption">Get To Know Us</h1>
+                  <h1 class="get-to-know__title">Plan Your Trip with<br> Tourlux</h1>
+                  <h1 class="get-to-know__subtitle">There are many variations of passages available but the majority have suffered alteration in some form, by injected randomised words which don't look even slightly.
+                  </h1>
+                  <ul class="get-to-know__check-list">
+                     <li class="get-to-know__check-list-item">
+                        Invest in your simply neighborhood
+                     </li>
+                     <li class="get-to-know__check-list-item">
+                        Support people in free text extreme
+                     </li>
+                     <li class="get-to-know__check-list-item">
+                        Largest global industrial business
+                     </li>
+                  </ul>
+                  <button class="get-to-know__btn btn btn--pink">BOOK NOW<img src="/img/icons/btn/Arrow.svg" alt="" class="arrow"></button>
+               </div>
+               <div class="get-to-know__picture-box">
+                  <img src="/img/images/Get-to-know-image.png" alt="" class="get-to-know__img">
+               </div>
+            </div>
+      </container>
+   </div>
+   <div class="counter">
+      <container class="global-container counter__container">
+         <div class="counter__text-box">
+            <p class="counter__num">1600+</p>
+            <p class="counter__description">Total Travel</p>
+         </div>     
+         <div class="counter__text-box">
+            <p class="counter__num">930+</p>
+            <p class="counter__description">Happy People</p>
+         </div>     
+         <div class="counter__text-box">
+            <p class="counter__num">30+</p>
+            <p class="counter__description">Travel Country</p>
+         </div>     
+         <div class="counter__text-box">
+            <p class="counter__num">50+</p>
+            <p class="counter__description">Our Volunteers</p>
+         </div>  
+      </container>
+   </div>
+   <div class="featured-tours">
+      <container class="global-container featured-tours__container">
+         <div class="featured-tours__heading">
+            <p class="featured-tours__caption">Featured Tours</p>
+            <h1 class="featured-tours__title"><b>Perfect</b> Holiday Plan</h1>
+         </div>
+         <div class="featured-tours__tour-list">
+            <div class="featured-tours__list-item">
+               <img src="/img/images/featured-tours/Featured Image-2.jpg" alt="" class="featured-tours__img">
+               <div class="featured-tours__text-box">
+                  <p class="featured-tours__description">Discovery Island Kayaking Tour</p>
+                  <p class="featured-tours__duration">5 day I 6 night</p>
+                  <div class="featured-tours__price-block">
+                     <button class="btn btn--pink featured-tours__btn">View Detail <img src="/img/icons/btn/Arrow.svg" alt="" class="arrow"></button>
+                     <p class="featured-tours__price">$115</p>
+                  </div>
+               </div>
+            </div>
+            <div class="featured-tours__list-item">
+               <img src="/img/images/featured-tours/Featured Image-1.jpg" alt="" class="featured-tours__img">
+               <div class="featured-tours__text-box">
+                  <p class="featured-tours__description">Glacier Walk Combo</p>
+                  <p class="featured-tours__duration">3 day I 4 night</p>
+                  <div class="featured-tours__price-block">
+                     <button class="btn btn--w-pink featured-tours__btn">View Detail <img src="/img/icons/btn/Arrow.svg" alt="" class="arrow"></button>
+                     <p class="featured-tours__price">$225</p>
+                  </div>
+               </div>
+            </div>
+            <div class="featured-tours__list-item">
+               <img src="/img/images/featured-tours/Featured Image.jpg" alt="" class="featured-tours__img">
+               <div class="featured-tours__text-box">
+                  <p class="featured-tours__description">Venice Tour - Italy</p>
+                  <p class="featured-tours__duration">10 day | 11 night</p>
+                  <div class="featured-tours__price-block">
+                     <button class="btn btn--w-pink featured-tours__btn">View Detail <img src="/img/icons/btn/Arrow.svg" alt="" class="arrow"></button>
+                     <p class="featured-tours__price">$150</p>
+                  </div>
+               </div>
+            </div>   
+         </div>
+         <button class="btn btn--pink featured-tours__btn">View More <img src="/img/icons/btn/Arrow.svg" alt="" class="arrow"></button>
+      </container>
+   </div>
+   <div class="tour-type">
+      <container class="global-container tour-type__container">
+         <div class="tour-type__text-box">
+            <p class="tour-type__heading">Are You Ready To Travel?</p>
+            <h1 class="tour-type__description">Tourlux Is A World Leading Tour Booking Platform.</h1>
+            <button class="btn btn--pink tour-type__btn">CONTACT NOW <img src="/img/icons/btn/Arrow.svg" alt="" class="arrow"></button>
+         </div>
+         <div class="tour-type__choice-list">
+            <button class="btn btn--pink tour-type__choice-btn">Adventure Tourism</button>
+            <button class="btn btn--tr-pink tour-type__choice-btn">Alternative Tourism</button>
+            <button class="btn btn--tr-pink tour-type__choice-btn">Cultural Tourism</button>
+            <button class="btn btn--tr-pink tour-type__choice-btn">Domestic Tourism</button>
+         </div>
+      </container>
+   </div>
+   <div class="gallery">
+      <container class="global-container gallery__container">
+         <div class="gallery__heading">
+            <p class="gallery__caption">Find Your Destination</p>
+            <p class="gallery__title"><b>Go Exotic</b> Places</p>
+         </div>   
+         <div class="gallery__slides">
+            <div class="gallery__line" style = "height:23.75rem;">
+               <div class="gallery__block gallery__block--2" style = "background-image: url(/img/images/ExoticPlaces/dubai.jpg);">
+                  <p class="gallery__country">Dubai</p>
+               </div>
+               <div class="gallery__block gallery__block--1" style = "background-image: url(/img/images/ExoticPlaces/costa-rika.jpg);">
+                  <p class="gallery__country">Costa Rica</p>
+               </div>
+            </div>
+            <div class="gallery__line">
+               <div class="gallery__block gallery__block--1" style = "background-image: url(/img/images/ExoticPlaces/vietnam1.jpg);">
+                  <p class="gallery__country">Vietnam</p>
+               </div>
+               <div class="gallery__block gallery__block--1" style = "background-image: url(/img/images/ExoticPlaces/tailand.jpg);">
+                  <p class="gallery__country">Thailand</p>
+               </div>
+               <div class="gallery__block gallery__block--1" style = "background-image: url(/img/images/ExoticPlaces/vietnam2.jpg);">
+                  <p class="gallery__country">Vietnam</p>
+               </div>
+            </div>
+         </div>
+         <button class="gallery__btn btn btn--pink">View More <img src="/img/icons/btn/Arrow.svg" alt="" class="arrow"></button>
+      </container>
+   </div>
+   <div class="get-it-now">
+      <container class="global-container get-it-now__container">
+         <h1 class="get-it-now__caption">Get it now</h1>
+         <p class="get-it-now__title">Plan Your Trip with</p>
+         <p class="get-it-now__percent">30% <b>discount</b></p>
+         <button class="btn btn--navy get-it-now__btn">CONTACT NOW <img src="/img/icons/btn/Arrow.svg" alt="" class="arrow"></button>
+      </container>
+   </div>
+   <div class="testimonials">
+      <conatiner class="global-container testimonials__container">
+         <div class="testimonials__background">
+            <div class="testimonials__heading">
+               <p class="testimonials__caption">Testimonials</p>
+               <p class="testimonials__title"><b>Our Beautiful Travelers</b> Feedback</p>
+            </div>
+            <div class="testimonials__profile">
+               <img src="/img/images/Avatars/MarvinMcKinney.png" alt="" class="testimonials__img">
+               <h1 class="testimonials__name">Marvin McKinney</h1>
+               <p class="testimonials__description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br> Excepteur sint occaecat cupidatat.</p>
+            </div>
+         </div>
+      </conatiner>
+   </div>
+   <div class="are-you-ready">
+      <container class="global-container are-you-ready__container">
+         <p class="are-you-ready__caption">Are You Ready</p>
+         <p class="are-you-ready__title">Explore With Tourlux</p>
+         <p class="are-you-ready__description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br> Excepteur sint occaecat cupidatat.</p>
+         <button class="btn btn--white are-you-ready__btn">CONTACT NOW <img src="/img/icons/btn/Arrow--navy.svg" alt="" class="arrow"></button>
+      </container>
+   </div>
+   <div class="our-blog">
+      <container class="global-container our-blog__container">
+         <div class="our-blog__heading">
+            <p class="our-blog__caption">Our Blog</p>
+            <p class="our-blog__title"><b>Stay Update With</b> Tourelux</p>
+         </div>
+         <div class="our-blog__blog-list">
+            <div class="our-blog__list-item">
+               <img src="/img/images/our-blog/Featured Image-2.jpg" alt="" class="our-blog__img">
+               <div class="our-blog__text-box">
+                  <div class="our-blog__byline">
+                     <p class="our-blog__autor">By Williamson Addarson</p>
+                     <p class="our-blog__date">15 Dec 2021</p>
+                  </div>
+                  <p class="our-blog__info">Jamaicas to develop green in credentials tourism</p>
+               </div>
+               <button class="btn btn--p-navy our-blog__btn--list">Read More <img src="/img/icons/btn/Arrow.svg" alt="" class="arrow"></button>
+            </div>
+            <div class="our-blog__list-item">
+               <img src="/img/images/our-blog/Featured Image-1.jpg" alt="" class="our-blog__img">
+               <div class="our-blog__text-box">
+                  <div class="our-blog__byline">
+                     <p class="our-blog__autor">by Brooklyn Simmons</p>
+                     <p class="our-blog__date">09 dec 2021</p>
+                  </div>
+                  <p class="our-blog__info">WTTC warns of ‘lost summer’ if borders remain closed</p>
+               </div>
+               <button class="btn btn--n-pink our-blog__btn--list">Read More <img src="/img/icons/btn/Arrow.svg" alt="" class="arrow"></button>
+            </div>
+            <div class="our-blog__list-item">
+               <img src="/img/images/our-blog/Featured Image.jpg" alt="" class="our-blog__img">
+               <div class="our-blog__text-box">
+                  <div class="our-blog__byline">
+                     <p class="our-blog__autor">by Guy Hawkins</p>
+                     <p class="our-blog__date">07 dec 2021</p>
+                  </div>
+                  <p class="our-blog__info">Arab Saudi to limit UAE travel over Delta variant concerns</p>
+               </div>
+               <button class="btn btn--n-pink our-blog__btn--list">Read More <img src="/img/icons/btn/Arrow.svg" alt="" class="arrow"></button>
+            </div>
+         </div>
+         <button class="btn btn--pink our-blog__btn">View More <img src="/img/icons/btn/Arrow.svg" alt="" class="arrow"></button>
+      </container>
+   </div>
+   <footer class="footer">
+      <div class="footer__contacts-section">
+         <container class="global-container footer__container--contacts">
+            <div class="footer__info">
+               <img src="/img/icons/TourluxFooter.png" alt="" class="footer__main-logo">
+               <p class="footer__subtitle">Excepteurs is occaecat cupidatat proident, sunti culpa qui officias deserunt mollit anim id est.</p>
+               <div class="footer__social-media">
+                  <button class="footer__media-btn"><img src="/img/icons/Header/social-media/Facebook.svg" alt="" class="footer__media-img"></button>
+                  <button class="footer__media-btn"><img src="/img/icons/Header/social-media/Insta.svg" alt="" class="footer__media-img"></button>
+                  <button class="footer__media-btn"><img src="/img/icons/Header/social-media/Linkedin.svg" alt="" class="footer__media-img"></button>
+                  <button class="footer__media-btn"><img src="/img/icons/Header/social-media/Twitter.svg" alt="" class="footer__media-img"></button>
+                  <button class="footer__media-btn"><img src="/img/icons/Header/social-media/Youtube.svg" alt="" class="footer__media-img"></button>
+               </div>
+            </div>
+            <div class="footer__useful-links">
+               <p class="footer__heading">Useful Link</p>
+               <div class="footer__links">
+                  <a href="about-us.html" class="footer__a">About us</a>
+                  <a href="" class="footer__a">Gallery</a>
+                  <a href="" class="footer__a">Tour Plan</a>
+                  <a href="" class="footer__a">Contact Us</a>
+                  <a href="" class="footer__a">Our Blog</a>
+               </div>
+            </div>
+            <div class="footer__additionals-links">
+               <p class="footer__heading">Additional Link</p>
+               <div class="footer__links">
+                  <a href="" class="footer__a">Author</a>
+                  <a href="" class="footer__a">Tags</a>
+                  <a href="" class="footer__a">Privacy Policy</a>
+                  <a href="" class="footer__a">Terms & Conditions</a>
+                  <a href="" class="footer__a">FAQ</a>
+               </div>
+            </div>
+            <div class="footer__get-in-touch">
+               <p class="footer__heading">Get In Touch</p>
+               <div class="footer__gmail-address">
+                  <div class="footer__number">
+                     <img src="/img/icons/Header/address/Call.svg" alt="" class="footer__logo--number">
+                     <p class="footer__description--number">1 562 867 5309</p>
+                  </div>
+                  <div class="footer__gmail">
+                     <img src="/img/icons/Header/address/Mail.svg" alt="" class="footer__logo--gmail">
+                     <p class="footer__description--gmail">tourluxtravel@company.com</p>
+                  </div>
+                  <div class="footer__address">
+                     <img src="/img/icons/Header/address/Subtract.svg" alt="" class="footer__logo--address">
+                     <p class="footer__description--address">4845 Confederate Drive Utica, NY 13502</p>
+                  </div>
+               </div>
+            </div>
+         </container>
+      </div>
+      <div class="footer__copyright-section">
+         <container class="global-container footer__container--copyright">
+            <p class="footer__copyright">Copyright © 2022. Designed by <b>TheDevGarden</b></p>
+         </container>
+      </div>
+   </footer>
+</body>
+
+
 </html>
