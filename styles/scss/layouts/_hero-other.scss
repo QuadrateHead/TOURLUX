@@ -1,7 +1,6 @@
 .hero-other {
    width: 100%;
    height: rem(320);
-   background-image: url("../../img/images/AboutUs/Banner.jpg");
 		&__container {
          display: flex;
          align-items: center;
@@ -27,6 +26,7 @@
 		}
 
 		&__pages {
+         height: rem(50);
          bottom: 0;
          border-radius: rem(5) rem(5) 0 0;
          padding: rem(20) rem(25);
