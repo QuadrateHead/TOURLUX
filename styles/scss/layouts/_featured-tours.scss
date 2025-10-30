@@ -45,16 +45,22 @@
 
 		&__tour-list {
          display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         border-radius: rem(5);
+         gap: rem(50);
+		}
+      &__list-line{
+         display: flex;
          flex-direction: row;
          justify-content: space-between;
          border-radius: rem(5);
-         box-shadow: 0 0 rem(25) 0 rgba(0, 0, 0, 0.05);
-         background: $white;
          gap: rem(20);
-		}
-
+      }
 		&__list-item {
          width: (380/1200)*100%;
+         box-shadow: 0 0 rem(25) 0 rgba(0, 0, 0, 0.05);
+         background: $white;
 		}
 
 		&__img {
@@ -74,7 +80,6 @@
          font-family: $first-family;
          font-weight: 600;
          font-size: rem(20);
-         line-height: 140%;
          text-transform: capitalize;
          color: $navy;
 		}
@@ -83,7 +88,6 @@
          font-family: $first-family;
          font-weight: 500;
          font-size: rem(14);
-         line-height: 200%;
          letter-spacing: 0.02em;
          color: $navy;
 		}
@@ -92,9 +96,18 @@
          display: flex;
          align-items: center;
          justify-content: space-between;
+         height: rem(40);
       }
 
 		&__btn {
+         height: rem(40);
+         font-family: $first-family;
+         font-weight: 600;
+         font-size: rem(14);
+         letter-spacing: 0.02em;
+         text-transform: uppercase;
+         padding-right: rem(15);
+         padding-left: rem(15);
 		}
 
 		&__price {

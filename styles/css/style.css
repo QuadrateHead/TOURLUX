@@ -1002,6 +1002,20 @@ input[type=file] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 0.3125rem;
+  gap: 3.125rem;
+}
+.featured-tours__list-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -1010,13 +1024,13 @@ input[type=file] {
       -ms-flex-pack: justify;
           justify-content: space-between;
   border-radius: 0.3125rem;
-  -webkit-box-shadow: 0 0 1.5625rem 0 rgba(0, 0, 0, 0.05);
-          box-shadow: 0 0 1.5625rem 0 rgba(0, 0, 0, 0.05);
-  background: #FFFFFF;
   gap: 1.25rem;
 }
 .featured-tours__list-item {
   width: 31.6666666667%;
+  -webkit-box-shadow: 0 0 1.5625rem 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 1.5625rem 0 rgba(0, 0, 0, 0.05);
+  background: #FFFFFF;
 }
 .featured-tours__img {
   width: 100%;
@@ -1040,7 +1054,6 @@ input[type=file] {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 1.25rem;
-  line-height: 140%;
   text-transform: capitalize;
   color: #061A3A;
 }
@@ -1048,7 +1061,6 @@ input[type=file] {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 0.875rem;
-  line-height: 200%;
   letter-spacing: 0.02em;
   color: #061A3A;
 }
@@ -1062,6 +1074,17 @@ input[type=file] {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  height: 2.5rem;
+}
+.featured-tours__btn {
+  height: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 0.875rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  padding-right: 0.9375rem;
+  padding-left: 0.9375rem;
 }
 .featured-tours__price {
   font-family: "Poppins", sans-serif;
