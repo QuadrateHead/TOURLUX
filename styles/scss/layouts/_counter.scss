@@ -2,6 +2,9 @@
    width: 100%;
    height: rem(320);
    background-image: url("../../img/images/Banner2Image.jpg");
+   background-size: cover;        
+	background-position: center;   
+	background-repeat: no-repeat;
 		&__container {
          display: flex;
          flex-direction: row;

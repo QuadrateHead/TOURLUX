@@ -1,7 +1,10 @@
 .get-it-now {
    width: 100%;
    height: rem(601);
-      background-image: url("../../img/images/Banner4Image.jpg");
+   background-image: url("../../img/images/Banner4Image.jpg");
+   background-size: cover;        
+	background-position: center;   
+	background-repeat: no-repeat;
 		&__container {
          display: flex;
          flex-direction: column;

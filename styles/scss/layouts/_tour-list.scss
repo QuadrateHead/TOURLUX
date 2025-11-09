@@ -1,5 +1,9 @@
 .tour-type {
-      background-image: url("../../img/images/Banner3Image.jpg");
+   width: 100%;
+   background-image: url("../../img/images/Banner3Image.jpg");
+   background-size: cover;        
+	background-position: center;   
+	background-repeat: no-repeat;
 		&__container {
          display: flex;
          padding-top: rem(100);

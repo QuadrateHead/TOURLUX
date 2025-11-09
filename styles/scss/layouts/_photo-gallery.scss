@@ -1,0 +1,86 @@
+.photo-gallery {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   
+		&__container {
+         width: 100%;
+         padding: rem(50);
+		}
+
+		&__info {
+         display: flex;
+         align-items: center;
+         gap: rem(20);
+         margin-bottom: rem(20);
+		}
+
+		&__place {
+         display: flex;
+         align-items: center;
+         gap: rem(10);
+		}
+
+      &__during {
+         display: flex;
+         align-items: center;
+         gap: rem(10);
+		}
+
+		&__icon {
+         height: rem(22);
+		}
+
+		&__description {
+         font-family: $first-family;
+         font-weight: 300;
+         font-size: rem(18);
+         letter-spacing: 0.03em;
+         text-transform: capitalize;
+         color: #000;
+         & i{
+            font-family: $first-family;
+            font-weight: 300;
+            font-size: rem(18);
+            letter-spacing: 0.03em;
+            text-transform: lowercase;
+            color: #000;
+         }
+		}
+
+		&__name-of-tour {
+         font-family: $second-family;
+         font-weight: 700;
+         font-size: rem(40);
+         letter-spacing: 0.03em;
+         text-transform: capitalize;
+         color: $navy;
+         margin-bottom: rem(35);
+		}
+
+		&__slide-list {
+         display: flex;
+         flex-direction: column;
+         gap: rem(30);
+		}
+
+		&__list-line {
+         display: flex;
+         flex-direction: row;
+         gap: rem(30);
+		}
+
+		&__list-item {
+
+			&--1 {
+            width: (330/1100)*100%;
+            object-fit: fill;
+			}
+
+			&--2 {
+            width: (380/1100)*100%;
+            object-fit: fill;
+			}
+		}
+}
+
