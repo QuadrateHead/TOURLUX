@@ -1,200 +1,201 @@
 .footer {
-   width: 100%;
-   color: $white;
-		&__contacts-section {
-         background-image: url("../../img/images/Footer-Image.jpg");
-		}
+    width: 100%;
+    color: $white;
+    &__contacts-section {
+        background-image: url("../../img/images/Footer-Image.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 
-      &__copyright-section {
-         background-color: $navy;
-		}
+    &__copyright-section {
+        background-color: $navy;
+    }
 
-		&__container {
-			&--contacts {
-            width: 100%;
-            display: flex;
-            flex-direction: row;
-            align-items: flex-start;
-            padding-top: rem(77);
-            padding-bottom: rem(77);
-			}
+    &__container {
+        &--contacts {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding-top: rem(77);
+        padding-bottom: rem(77);
+        }
 
-			&--copyright {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: rem(16) 0;
-			}
-		}
+        &--copyright {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: rem(16) 0;
+        }
+    }
 
-      &__copyright {
-         font-family: $first-family;
-         font-weight: 300;
-         font-size: rem(12);
-         letter-spacing: 0.02em;
-         text-transform: uppercase;
-         &>b{
-            font-family: $first-family;
-            font-weight: 500;
-            font-size: rem(12);
-            letter-spacing: 0.02em;
-            text-transform: capitalize;
-         }
-		}
-
-
-
-		&__info {
-         width: (278/1200)*100%;
-         margin-right: rem(131);
-		}
-
-		&__main-logo {
-         height: rem(67);
-         margin-bottom: rem(15);
-		}
-
-		&__subtitle {
-         margin-bottom: rem(30);
-         font-family: $third-family;
-         font-weight: 400;
-         font-size: rem(15);
-         line-height: 147%;
-         letter-spacing: 0.02em;
-         text-transform: capitalize;
-		}
-
-		&__social-media {
-         display: flex;
-         gap: rem(15);
-		}
-
-		&__media-btn {
-		}
-
-		&__media-img {
-		}
+    &__copyright {
+        font-family: $first-family;
+        font-weight: 300;
+        font-size: rem(12);
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        &>b{
+        font-family: $first-family;
+        font-weight: 500;
+        font-size: rem(12);
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        }
+    }
 
 
 
-		&__useful-links {
-            display: flex;
-            flex-direction: column;
-            margin-right: rem(71);
-            width: (135/1200)*100%;
-		}
+    &__info {
+        width: (278/1200)*100%;
+        margin-right: rem(131);
+    }
 
-		&__heading {
-            height: rem(16);
-            font-family: $second-family;
-            font-weight: 700;
-            font-size: rem(22);
-            letter-spacing: 0.03em;
-            text-transform: capitalize;
-            margin-bottom: rem(40);
-		}
+    &__main-logo {
+        height: rem(67);
+        margin-bottom: rem(15);
+    }
 
-		&__links {
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            gap: rem(17);
-		}
+    &__subtitle {
+        margin-bottom: rem(30);
+        font-family: $third-family;
+        font-weight: 400;
+        font-size: rem(15);
+        line-height: 147%;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+    }
 
-		&__a {
-            height: rem(12);
-            font-family: $first-family;
-            font-weight: 400;
-            font-size: rem(16);
-            letter-spacing: 0.03em;
-            text-transform: capitalize;
-            line-height: 1;
-            color: $white;
-		}
+    &__social-media {
+        display: flex;
+        gap: rem(15);
+    }
+
+    &__media-btn {
+    }
+
+    &__media-img {
+    }
 
 
 
-		&__additionals-links {
-         display: flex;
-         flex-direction: column;
-         width: (170/1200)*100%;
-         margin-right: rem(151);
-		}
+    &__useful-links {
+        display: flex;
+        flex-direction: column;
+        margin-right: (71/1200)*100%;
+        width: (135/1200)*100%;
+    }
+
+    &__heading {
+        //height: rem(16);
+        font-family: $second-family;
+        font-weight: 700;
+        font-size: rem(22);
+        letter-spacing: 0.03em;
+        text-transform: capitalize;
+        margin-bottom: rem(34);
+    }
+
+    &__links {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: rem(12);
+    }
+
+    &__a {
+        //height: rem(12);
+        font-family: $first-family;
+        font-weight: 400;
+        font-size: rem(16);
+        letter-spacing: 0.03em;
+        text-transform: capitalize;
+        line-height: 1;
+        color: $white;
+    }
 
 
 
-		&__get-in-touch {
-         width: (264/1200)*100%;
-		}
+    &__additionals-links {
+        display: flex;
+        flex-direction: column;
+        width: (170/1200)*100%;
+        margin-right: (151/1200)*100%;
+    }
 
-		&__gmail-address {
-         display: flex;
-         flex-direction: column;
-         gap: rem(19);
-		}
 
-		&__logo {
 
-			&--number {
-            height: rem(25);
-			}
+    &__get-in-touch {
+        width: (264/1200)*100%;
+    }
 
-			&--gmail {
-            height: rem(25);
-			}
+    &__gmail-address {
+        display: flex;
+        flex-direction: column;
+        gap: rem(19);
+    }
 
-			&--address {
-            height: rem(25);
-			}
-		}
+    &__logo {
 
-		&__description {
+        &--number {
+        height: rem(25);
+        }
 
-			&--number{
-            font-family: $first-family;
-            font-weight: 400;
-            font-size: rem(14);
-            letter-spacing: 0.02em;
-            text-transform: lowercase;
-			}
+        &--gmail {
+        height: rem(25);
+        }
 
-         &--gmail {
-            font-family: $first-family;
-            font-weight: 400;
-            font-size: rem(14);
-            letter-spacing: 0.02em;
-            text-transform: lowercase;
-			}
+        &--address {
+        height: rem(25);
+        }
+    }
 
-			&--address {
-            font-family: $first-family;
-            font-weight: 400;
-            font-size: rem(15);
-            line-height: 133%;
-            text-transform: capitalize;
-			}
-		}
+    &__description {
 
-      &__number {
-         display: flex;
-         align-items: center;
-         gap: rem(15);
-		}
+        &--number{
+        font-family: $first-family;
+        font-weight: 400;
+        font-size: rem(14);
+        letter-spacing: 0.02em;
+        text-transform: lowercase;
+        }
 
-		&__gmail {
-         display: flex;
-         align-items: center;
-         gap: rem(15);
-		}
+        &--gmail {
+        font-family: $first-family;
+        font-weight: 400;
+        font-size: rem(14);
+        letter-spacing: 0.02em;
+        text-transform: lowercase;
+        }
 
-		&__address {
-         display: flex;
-         height: rem(40);
-         gap: rem(15);
-		}
+        &--address {
+        font-family: $first-family;
+        font-weight: 400;
+        font-size: rem(15);
+        line-height: 133%;
+        text-transform: capitalize;
+        }
+    }
 
-		
+    &__number {
+        display: flex;
+        align-items: center;
+        gap: rem(15);
+    }
+
+    &__gmail {
+        display: flex;
+        align-items: center;
+        gap: rem(15);
+    }
+
+    &__address {
+        display: flex;
+        height: rem(40);
+        gap: rem(15);
+    }
 }
 
 
