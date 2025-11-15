@@ -2516,3 +2516,164 @@ input[type=file] {
 .details__btn {
   width: 100%;
 }
+
+.tour-plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 1.875rem;
+}
+.tour-plan__heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.625rem;
+  letter-spacing: 0.02em;
+  color: #061A3A;
+}
+.tour-plan__days {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.875rem;
+}
+.tour-plan__days-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.tour-plan__day-block {
+  border: 0.03125rem solid #061A3A;
+  border-radius: 0.3125rem;
+  width: 31.6666666667%;
+  -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.05);
+  background: #FFFFFF;
+  padding: 1.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.tour-plan__caption {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.0625rem;
+  letter-spacing: 0.02em;
+  color: #FF7C5B;
+  margin-bottom: 0.875rem;
+}
+.tour-plan__description {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 123%;
+  color: #05152e;
+}
+
+.included {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 1.875rem;
+}
+.included__title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.625rem;
+  letter-spacing: 0.02em;
+  color: #061A3A;
+}
+.included__subtitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 114.5833333333%;
+  color: #05152e;
+}
+.included__include {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.875rem;
+}
+.included__include-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.included__include-block {
+  border: 0.03125rem solid #061A3A;
+  border-radius: 0.3125rem;
+  width: 31.6666666667%;
+  -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.05);
+  background: #FFFFFF;
+  padding: 2.4375rem 1.875rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.included__caption {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 1.625rem;
+  letter-spacing: 0.02em;
+  color: #061A3A;
+  margin-bottom: 0.8125rem;
+}
+.included__description {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1.0625rem;
+  line-height: 76.4705882353%;
+  letter-spacing: 0.02em;
+  color: #05152e;
+}

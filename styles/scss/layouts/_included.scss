@@ -1,0 +1,66 @@
+.included {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: rem(30);
+		&__title {
+         font-family: $first-family;
+         font-weight: 600;
+         font-size: rem(26);
+         letter-spacing: 0.02em;
+         color: $navy;
+		}
+
+		&__subtitle {
+         font-family: $first-family;
+         font-weight: 400;
+         font-size: rem(16);
+         line-height: (55/48)*100%;
+         color: #05152e;
+		}
+
+		&__include {
+         width: 100%;
+         display: flex;
+         justify-content: center;
+         flex-direction: column;
+         gap: rem(30);
+		}
+
+		&__include-line {
+         display: flex;
+         justify-content: space-between;
+		}
+
+		&__include-block {
+         border: rem(0.5) solid $navy;
+         border-radius: rem(5);
+         width: (380/1200) * 100%;
+         box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.05);
+         background: $white;
+         padding: rem(39) rem(30);
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+		}
+
+		&__caption {
+         font-family: $second-family;
+         font-weight: 700;
+         font-size: rem(26);
+         //line-height: 185%;
+         letter-spacing: 0.02em;
+         color: $navy;
+         margin-bottom: rem(13);
+		}
+
+		&__description {
+         font-family: $third-family;
+         font-weight: 500;
+         font-size: rem(17);
+         line-height: (13/17)*100%;
+         letter-spacing: 0.02em;
+         color: #05152e;
+		}
+}
+

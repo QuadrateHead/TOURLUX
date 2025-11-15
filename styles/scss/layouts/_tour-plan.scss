@@ -1,0 +1,53 @@
+.tour-plan {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: rem(30);
+		&__heading {
+         font-family: $first-family;
+         font-weight: 600;
+         font-size: rem(26);
+         letter-spacing: 0.02em;
+         color: $navy;
+		}
+
+		&__days {
+         display: flex;
+         justify-content: center;
+         flex-direction: column;
+         gap: rem(30);
+		}
+      &__days-line{
+         display: flex;
+         justify-content: space-between;
+      }
+		&__day-block {
+         border: rem(0.5) solid $navy;
+         border-radius: rem(5);
+         width: (380/1200) * 100%;
+         box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.05);
+         background: $white;
+         padding: rem(20);
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+		}
+
+		&__caption {
+         font-family: $first-family;
+         font-weight: 500;
+         font-size: rem(17);
+         letter-spacing: 0.02em;
+         color: $p-pink;
+         margin-bottom: rem(14);
+		}
+
+		&__description {
+         font-family: $first-family;
+         font-weight: 400;
+         font-size: rem(16);
+         line-height: 123%;
+         color: #05152e;
+		}
+}
+
