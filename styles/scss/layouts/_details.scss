@@ -118,49 +118,66 @@
          }
 		}
 
-		&__numofper {
+
+      &__numofper {
          position: relative;
-         z-index: 0;
-		}
-
-		&__numofper-main {
-         display: flex;
-         justify-content: space-between;
-         align-items: center;
-         padding-right: rem(15);
-         background: #ffd8ce;
-         
-		}
-
-      //?Не решено//
-      &__numofper-toggle{
-         display: flex; align-items: center; justify-content: center;
-         transform: rotate(90deg);
-      }
-
-      &__numofper-arrow{
-
-      }
-      #toggle:checked {
-         & ~ .details__numofper-list {
+         &.open .details__numofper-arrow{
+            transform: rotate(270deg);
+            transition: 0.3s ease;
+         }
+         &.open .details__numofper-list{
+            max-height: rem(300);
             opacity: 1;
+            visibility: visible;
          }
-         & ~ .details__numofper-toggle {
-            transform: rotate(180deg);
+         &.open .details__numofper-main{
+            border-radius: rem(5) rem(5) 0 0;
          }
       }
-		&__numofper-list {
+
+      &__numofper-main {
+         background: #ffd8ce;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         padding-right: rem(15);
+         border-radius: rem(5);
+      }
+
+      &__numofper-arrow {
+         transform: rotate(90deg);
+         transition: 0.3s ease;
+         cursor: pointer;
+      }
+      
+      &__numofper-list {
          position: absolute;
-         z-index: 8;
-         width: 100%;
+         top: 100%;
+         left: 0;
+         right: 0;
+         background: #ffe5df;
+         border-radius: 0 0 rem(5) rem(5);
          opacity: 0;
-		}
+         overflow: hidden;
+         max-height: 0;
+         visibility: hidden;
+         transition: max-height 0.3s ease;
+      }
 
       &__numofper-listitem {
-         background-color: rgba(#ffd8ce, 0.7);
-		}
+         background-color: #fff2ef;
+         padding: rem(13);
+         cursor: pointer;
+         transition: 0.2s;
+         &:hover {
+            background: #ffd2c7;
+         }
+      }
 
 		&__btn {
          width: 100%;
 		}
+
+
+      
 }

@@ -2453,49 +2453,65 @@ input[type=file] {
 }
 .details__numofper {
   position: relative;
-  z-index: 0;
+}
+.details__numofper.open .details__numofper-arrow {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.details__numofper.open .details__numofper-list {
+  max-height: 18.75rem;
+  opacity: 1;
+  visibility: visible;
+}
+.details__numofper.open .details__numofper-main {
+  border-radius: 0.3125rem 0.3125rem 0 0;
 }
 .details__numofper-main {
+  background: #ffd8ce;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   padding-right: 0.9375rem;
-  background: #ffd8ce;
+  border-radius: 0.3125rem;
 }
-.details__numofper-toggle {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.details__numofper-arrow {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
-}
-.details #toggle:checked ~ .details__numofper-list {
-  opacity: 1;
-}
-.details #toggle:checked ~ .details__numofper-toggle {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  cursor: pointer;
 }
 .details__numofper-list {
   position: absolute;
-  z-index: 8;
-  width: 100%;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #ffe5df;
+  border-radius: 0 0 0.3125rem 0.3125rem;
   opacity: 0;
+  overflow: hidden;
+  max-height: 0;
+  visibility: hidden;
+  -webkit-transition: max-height 0.3s ease;
+  transition: max-height 0.3s ease;
 }
 .details__numofper-listitem {
-  background-color: rgba(255, 216, 206, 0.7);
+  background-color: #fff2ef;
+  padding: 0.8125rem;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.details__numofper-listitem:hover {
+  background: #ffd2c7;
 }
 .details__btn {
   width: 100%;
