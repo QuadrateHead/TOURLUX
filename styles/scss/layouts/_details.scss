@@ -1,0 +1,166 @@
+.details {
+   width: 100%;
+		&__info {
+         display: flex;
+         flex-direction: row;
+         gap: (70/1200)*100%;
+		}
+
+		&__text-box {
+         display: flex;
+         flex-direction: column;
+         gap: rem(50);
+         width: (790/1200)*100%;
+		}
+
+
+      &__title {
+         font-family: $first-family;
+         font-weight: 600;
+         font-size: rem(26);
+         letter-spacing: 0.02em;
+         color: $navy;
+		}
+
+		&__subtitle {
+         font-family: $first-family;
+         font-weight: 400;
+         font-size: rem(16);
+         line-height: 137%;
+         color: $navy--shade1;
+		}
+
+
+		&__description {
+         display: flex;
+         flex-direction: column;
+         gap: rem(17);
+		}
+
+		&__additional-info {
+         display: flex;
+         flex-direction: column;
+         gap: rem(17);
+		}
+
+		&__trip-info {
+         display: flex;
+         flex-direction: row;
+         gap: rem(98);
+		}
+
+
+		&__trip-block {
+         display: flex;
+         flex-direction: column;
+         gap: rem(13);
+		}
+
+		&__heading {
+         font-family: $second-family;
+         font-weight: 700;
+         font-size: rem(26);
+         letter-spacing: 0.02em;
+         color: $navy;
+		}
+
+		&__caption {
+         font-family: $first-family;
+         font-weight: 500;
+         font-size: rem(20);
+         letter-spacing: 0.02em;
+         color: $navy;
+		}
+
+
+		&__booking {
+         width: (340/1200)*100%;
+         height: 100%;
+         box-shadow: 0 0 rem(25) 0 rgba(0, 0, 0, 0.05);
+         background: #fff2ef;
+         padding: rem(40) rem(35);
+		}
+
+		&__name {
+         font-family: $second-family;
+         font-weight: 700;
+         font-size: rem(30);
+         letter-spacing: 0.03em;
+         text-transform: capitalize;
+         color: $navy;
+         margin-bottom: rem(28);
+		}
+
+      &__form{
+         display: flex;
+         flex-direction: column;
+         gap: rem(20);
+      }
+
+		&__input {
+         background: #ffd8ce;
+         border-radius: rem(5);
+         padding: rem(9);
+         font-family: $first-family;
+         font-weight: 400;
+         font-size: rem(12);
+         letter-spacing: 0.03em;
+         text-transform: capitalize;
+         color: $navy;
+         &::placeholder{
+            opacity: 1;
+            font-family: $first-family;
+            font-weight: 400;
+            font-size: rem(12);
+            letter-spacing: 0.03em;
+            text-transform: capitalize;
+            color: $navy;
+         }
+		}
+
+		&__numofper {
+         position: relative;
+         z-index: 0;
+		}
+
+		&__numofper-main {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         padding-right: rem(15);
+         background: #ffd8ce;
+         
+		}
+
+      //?Не решено//
+      &__numofper-toggle{
+         display: flex; align-items: center; justify-content: center;
+         transform: rotate(90deg);
+      }
+
+      &__numofper-arrow{
+
+      }
+      #toggle:checked {
+         & ~ .details__numofper-list {
+            opacity: 1;
+         }
+         & ~ .details__numofper-toggle {
+            transform: rotate(180deg);
+         }
+      }
+		&__numofper-list {
+         position: absolute;
+         z-index: 8;
+         width: 100%;
+         opacity: 0;
+		}
+
+      &__numofper-listitem {
+         background-color: rgba(#ffd8ce, 0.7);
+		}
+
+		&__btn {
+         width: 100%;
+		}
+}
