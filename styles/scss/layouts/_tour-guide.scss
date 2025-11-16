@@ -1,0 +1,53 @@
+.tour-guide {
+   display: flex;
+   gap: rem(30);
+   background: #ffe5de;
+   border-radius: rem(5);
+   padding: rem(35);
+   width: (790/1200)*100%;
+		&__avatar {
+         border-radius: 5px;
+         width: rem(180);
+         height: rem(180);
+		}
+
+		&__employee {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+		}
+
+		&__person {
+         display: flex;
+         flex-direction: column;
+         gap: rem(20);
+		}
+
+		&__name {
+         font-family: $second-family;
+         font-weight: 700;
+         font-size: rem(30);
+         letter-spacing: 0.02em;
+         text-transform: capitalize;
+         color: $navy;
+         line-height: (25/30)*100%;
+		}
+
+		&__proffesion {
+         font-family: $first-family;
+         font-weight: 500;
+         font-size: rem(18);
+         line-height: (13/18)*100%;
+         letter-spacing: 0.02em;
+         color: #515f75;
+		}
+
+		&__biography {
+         font-family: $third-family;
+         font-weight: 400;
+         font-size: rem(16);
+         line-height: (78/64)*100%;
+         letter-spacing: 0.02em;
+         color: #05152e;
+		}
+}
