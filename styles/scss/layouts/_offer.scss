@@ -1,12 +1,16 @@
 .offer {
    width: (380/1200)*100%;
    background-image: url("../../img/images/tour-details/Offer.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: center;
    padding: 0 rem(81);
    gap: rem(30);
+   border-radius: rem(5);
 		&__percent {
          font-family: $second-family;
          font-weight: 700;

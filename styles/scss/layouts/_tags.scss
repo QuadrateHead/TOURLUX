@@ -1,0 +1,36 @@
+.tags {
+   display: flex;
+   flex-direction: column;
+   padding: rem(30) rem(30) rem(30) rem(30);
+   border-radius: rem(5);
+   box-shadow: 0 0 rem(25) 0 rgba(0, 0, 0, 0.05);
+   background: $white;
+   gap: rem(30);
+		&__heading {
+         font-family: $second-family;
+         font-weight: 700;
+         font-size: rem(30);
+         letter-spacing: 0.03em;
+         text-transform: capitalize;
+         color: $navy;
+		}
+
+		&__text-box {
+         display: flex;
+         flex-wrap: wrap;
+         column-gap: rem(10);
+         row-gap: rem(15);
+		}
+
+		&__tag {
+         font-family: $first-family;
+         font-weight: 500;
+         font-size: rem(14);
+         letter-spacing: 0.03em;
+         text-transform: lowercase;
+         color: #05152e;
+         padding: rem(12);
+         border-radius: rem(5);
+         background: #fff2ef;
+		}
+}

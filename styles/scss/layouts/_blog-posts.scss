@@ -1,0 +1,99 @@
+.blog-posts {
+	display: flex;
+	gap: rem(30);
+	margin-top: rem(120);
+		&__posts {
+			&--main {
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-end;
+				width: (483/1200)*100%;
+				height: rem(500);
+				border-radius: rem(5);
+				padding: 0 rem(51) rem(35) rem(30);
+				gap: rem(18);
+				& .blog-posts__content{
+					text-decoration: underline;
+					text-decoration-skip-ink: none;
+					line-height: (50/40)*100%;
+				}
+			}
+			//!Solve the problem//
+			&--other {
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center;
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-end;
+				width: (328/687)*100%;
+				height: rem(235);
+				border-radius: rem(5);
+				padding: 0 rem(29) rem(25) rem(25);
+				
+				& .blog-posts__content{
+					font-size: rem(16);
+					line-height: (39/32)*100%;
+				}
+			}
+		}
+
+		&__post-block {
+			display: flex;
+			flex-direction: column;
+			width: (687/1200)*100%;
+			gap: rem(30);
+		}
+
+		&__post-line {
+			display: flex;
+			gap: rem(30);
+			&--1 {
+				& .blog-posts__posts--other{
+					gap: rem(9.47);
+				}
+			}
+
+			&--2 {
+				& .blog-posts__posts--other{
+					gap: rem(11);
+				}
+			}
+		}
+
+		&__post-info {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			
+			font-family: $first-family;
+			font-weight: 400;
+			font-size: rem(12);
+			line-height: (10/12)*100%;
+			letter-spacing: 0.02em;
+			text-transform: capitalize;
+			color: $white;
+		}
+
+		&__author {
+
+		}
+
+		&__data {
+		}
+
+
+		&__content {
+			font-family: $first-family;
+			font-weight: 700;
+			font-size: rem(20);	
+			letter-spacing: 0.02em;
+			text-transform: capitalize;
+			color: $white;
+		}
+
+		
+}

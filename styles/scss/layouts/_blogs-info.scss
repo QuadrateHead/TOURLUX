@@ -1,0 +1,14 @@
+.blogs-info{
+   display: flex;
+   flex-direction: column;
+   width: rem(330);
+   gap: rem(40);
+   & .offer{
+     width: 100%;
+     padding: rem(50) rem(60);
+     gap: rem(41);
+     &__percent{
+      line-height: (108/90)*100%;
+     }
+   }
+}

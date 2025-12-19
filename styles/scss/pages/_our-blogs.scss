@@ -1,0 +1,11 @@
+.our-blogs {
+
+		&__main-block {
+         margin-top: rem(100);
+         margin-bottom: rem(136);
+         width: 100%;
+         display: flex;
+         justify-content: space-between;
+         gap: rem(80);
+		}
+}
