@@ -1,0 +1,35 @@
+.sb-info-5 {
+   display: flex;
+   flex-direction: column;
+   gap: rem(30);
+		&__heading {
+         font-family: $first-family;
+         font-weight: 600;
+         font-size: rem(26);
+         letter-spacing: 0.02em;
+         color: $navy;
+         line-height: (19/26)*100%;
+		}
+
+		&__description {
+         font-family: $first-family;
+         font-weight: 400;
+         font-size: rem(16);
+         color: #05152e;
+         &--1{
+            line-height: (58/48)*100%;
+         }
+         &--2{
+            
+         }
+		}
+
+		&__images {
+         display: flex;
+         gap: rem(20);
+		}
+
+		&__img {
+         width: (250/790)*100%;
+		}
+}

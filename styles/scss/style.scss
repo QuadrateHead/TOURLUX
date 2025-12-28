@@ -9,6 +9,7 @@
 @import "pages/about-us";
 @import "pages/tour-details";
 @import "pages/our-blogs";
+@import "pages/single-blog";
 //!Elemnts//
 @import "elements/buttons";
 @import "elements/arrow";
@@ -47,3 +48,10 @@
 @import "layouts/blogs-info";
 @import "layouts/recent-post";
 @import "layouts/tags";
+//!Single-Blog//
+@import "layouts/sb-info-1";
+@import "layouts/sb-info-2";
+@import "layouts/sb-info-3";
+@import "layouts/sb-info-4";
+@import "layouts/sb-info-5";
+@import "layouts/share";

@@ -1,0 +1,21 @@
+.sb-info-2 {
+   display: flex;
+   flex-direction: column;
+   gap: rem(30);
+		&__heading {
+         font-family: $first-family;
+         font-weight: 600;
+         font-size: rem(26);
+         line-height: (19/26)*100%;
+         letter-spacing: 0.02em;
+         color: $navy;
+		}
+
+		&__description {
+         font-family: $first-family;
+         font-weight: 400;
+         font-size: rem(16);
+         line-height: (77/64)*100%;
+         color: #05152e;
+		}
+}

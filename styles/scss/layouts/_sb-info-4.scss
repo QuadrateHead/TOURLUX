@@ -1,0 +1,29 @@
+.sb-info-4 {
+   display: flex;
+   flex-direction: column;
+   gap: rem(30);
+		&__heading {
+         font-family: $first-family;
+         font-weight: 600;
+         font-size: rem(22);
+         letter-spacing: 0.02em;
+         color: $navy;
+         line-height: (52/44)*100%;
+		}
+
+		&__description {
+         font-family: $first-family;
+         font-weight: 400;
+         font-size: rem(16);
+         color: #05152e;
+		}
+
+		&__images {
+         display: flex;
+         gap: rem(30);
+		}
+
+		&__img {
+         width: (380/790)*100%;
+		}
+}

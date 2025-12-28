@@ -1,0 +1,24 @@
+.sb-info-3 {
+   padding: rem(32) rem(47) rem(33) rem(45);
+   background: #ffe5de;
+   border-radius: rem(10);
+		&__container {
+         width: 100%;
+         display: flex;
+         align-items: flex-start;
+         gap:rem(15);
+		}
+
+		&__quote {
+         min-width: rem(32);
+		}
+
+		&__citate {
+         margin-top: rem(7);
+         font-family: $first-family;
+         font-weight: 400;
+         font-size: rem(16);
+         line-height: (108/80)*100%;
+         color: $navy;
+		}
+}

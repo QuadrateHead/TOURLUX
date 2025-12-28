@@ -1,0 +1,24 @@
+.share {
+   display: flex;
+   align-items: center;
+   gap: rem(15);
+		&__heading {
+         font-family: $second-family;
+         font-weight: 400;
+         font-size: rem(20);
+         letter-spacing: 0.03em;
+         text-transform: capitalize;
+         color: $p-pink;
+         line-height: (16/20)*100%;
+		}
+
+		&__socials {
+         display: flex;
+         height: rem(40);
+         gap: rem(20);
+		}
+
+		&__icons {
+         fill: $p-pink;
+		}
+}

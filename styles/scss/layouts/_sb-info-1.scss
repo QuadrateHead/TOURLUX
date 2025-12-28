@@ -1,0 +1,47 @@
+.sb-info-1 {
+
+		&__date-tag {
+         display: flex;
+         align-items: center;
+         gap: rem(12);
+         font-family: $first-family;
+         font-weight: 500;
+         font-size: rem(16);
+         line-height: (13/16)*100%;
+         letter-spacing: 0.02em;
+         color: #515f75;
+         margin-bottom: rem(20);
+		}
+
+		&__date {
+		}
+
+		&__delimiter {
+		}
+
+		&__tag {
+		}
+
+		&__heading {
+         font-family: $first-family;
+         font-weight: 700;
+         font-size: rem(33);
+         line-height: (24/33)*100%;
+         letter-spacing: 0.02em;
+         color: $p-pink;
+         margin-bottom: rem(30);
+		}
+
+		&__description {
+         font-family: $first-family;
+         font-weight: 400;
+         font-size: rem(16);
+         line-height: (58/48)*100%;
+         color: #05152e;
+         margin-bottom: rem(42);
+		}
+
+		&__img {
+         border-radius: rem(5);
+		}
+}
