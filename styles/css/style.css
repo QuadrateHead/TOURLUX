@@ -3464,3 +3464,234 @@ input[type=file] {
 .share__icons {
   fill: #FF7C5B;
 }
+
+.sb-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+}
+.sb-form__heading {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 1.875rem;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  color: #061A3A;
+  margin-bottom: 3.125rem;
+}
+.sb-form__per-id {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.875rem;
+  margin-bottom: 1.875rem;
+}
+.sb-form__input {
+  padding: 0.96875rem 1rem;
+  -webkit-box-shadow: 0 0 1.5625rem 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 1.5625rem 0 rgba(0, 0, 0, 0.05);
+  background: #FFFFFF;
+  border: 0.03125rem solid #061A3A;
+  border-radius: 0.3125rem;
+  width: 48.1012658228%;
+}
+.sb-form__input::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #061A3A;
+}
+.sb-form__input::-moz-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #061A3A;
+}
+.sb-form__input:-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #061A3A;
+}
+.sb-form__input::-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #061A3A;
+}
+.sb-form__input::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #061A3A;
+}
+.sb-form__message {
+  width: 100%;
+  height: 6.25rem;
+  padding: 0.96875rem 1rem;
+  -webkit-box-shadow: 0 0 1.5625rem 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 1.5625rem 0 rgba(0, 0, 0, 0.05);
+  background: #FFFFFF;
+  border: 0.03125rem solid #061A3A;
+  border-radius: 0.3125rem;
+  margin-bottom: 1.875rem;
+}
+.sb-form__message::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #061A3A;
+}
+.sb-form__message::-moz-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #061A3A;
+}
+.sb-form__message:-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #061A3A;
+}
+.sb-form__message::-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #061A3A;
+}
+.sb-form__message::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #061A3A;
+}
+.sb-form__btn {
+  width: 100%;
+}
+
+.sb-comments__list {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.5625rem;
+}
+.sb-comments__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 1.25rem;
+}
+.sb-comments__avatar {
+  width: 4.5625rem;
+  height: 4.5625rem;
+}
+.sb-comments__content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.25rem;
+}
+.sb-comments__info {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.sb-comments__profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.25rem;
+}
+.sb-comments__reply {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #FF7C5B;
+}
+.sb-comments__name {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 1.875rem;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #061A3A;
+}
+.sb-comments__date {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  color: #515f75;
+}
+.sb-comments__message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.875rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 138%;
+  color: #05152e;
+}
+.sb-comments__btn {
+  margin-top: 3.4375rem;
+}

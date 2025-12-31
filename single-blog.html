@@ -131,7 +131,64 @@
             </div>
          </div>
          <div class="line" style="height: 1px; width: 100%; background: rgba(155, 163, 176, 0.2);"></div>
-         
+         <form id="sbCommentForm" class="sb-form" action="" method="post">
+            <p class="sb-form__heading">Leave a Comment</p>
+            <div class="sb-form__per-id">
+               <input type="text" name="name" id="2" class="sb-form__name sb-form__input" placeholder = "Full Name:">
+               <input type="email" name="email" id="2" class="sb-form__email sb-form__input" placeholder = "Email Address:">
+            </div>
+            <textarea class = "sb-form__message" name="message" id="2" rows="10" placeholder="Write Your Message:"></textarea>
+            <button class = "sb-form__btn btn btn--pink" type="submit">SUBMIT NOW <img src="img/icons/btn/Arrow.svg" alt="" class="arrow"></button>
+         </form>
+         <div class="line" style="height: 1px; width: 100%; background: rgba(155, 163, 176, 0.2);"></div>
+         <div class="sb-comments__list" id = "sbCommentsList">
+            <div class="sb-comments__item" id = "sb-commentsItem">
+               <img src="img/images/sb-comments/Avater.png" alt="Avatar Picture" class="sb-comments__avatar">
+               <div class="sb-comments__content">
+                  <div class="sb-comments__info">
+                     <div class="sb-comments__profile">
+                     <h4 class = "sb-comments__name">Esther Howard</h4>
+                     <span class = "sb-comments__date">21 Dec 2021</span>
+                  </div>
+                  <a id = "sb-reply" class = "sb-comments__reply" href="#">Reply</a>
+                  </div>
+                  <div class="sb-comments__message"> Excepteur sints occaecat cupidatat a proident, sunt culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.
+                     <div class="sb-comments__item" id = "sb-commentsItem">
+                        <img src="img/images/sb-comments/Avater-2.png" alt="Avatar Picture" class="sb-comments__avatar">
+                        <div class="sb-comments__content">
+                           <div class="sb-comments__info">
+                              <div class="sb-comments__profile">
+                              <h4 class = "sb-comments__name">Jenny Wilson</h4>
+                              <span class = "sb-comments__date">21 Dec 2021</span>
+                           </div>
+                           <a id = "sb-reply" class = "sb-comments__reply" href="#">Reply</a>
+                           </div>
+                           <div class="sb-comments__message"> This was not our first time going to here. It is a great place to shop not too far from New York. We took the bus from Port Authority and traveled through the countryside to get there.
+
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="line" style="height: 1px; width: 100%; background: rgba(155, 163, 176, 0.2);"></div>
+            <div class="sb-comments__item" id = "sb-commentsItem">
+               <img src="img/images/sb-comments/Avater-1.png" alt="Avatar Picture" class="sb-comments__avatar">
+               <div class="sb-comments__content">
+                  <div class="sb-comments__info">
+                     <div class="sb-comments__profile">
+                     <h4 class = "sb-comments__name">Esther Howard</h4>
+                     <span class = "sb-comments__date">21 Dec 2021</span>
+                  </div>
+                  <a id = "sb-reply" class = "sb-comments__reply" href="#">Reply</a>
+                  </div>
+                  <div class="sb-comments__message"> We always stay at here when in town. The location is great, staff is wonderful and we love the overall feel. Beautiful view from the here.
+
+                  </div>
+               </div>
+            </div>
+            <button class = "btn btn--pink sb-comments__btn " id="loadMore">LOAD MORE <img src="img/icons/btn/Arrow.svg" alt="" class="arrow"></button>
+         </div>
       </div>
       <div class="single-blog__add-content">
          <div class="recent-post">
@@ -287,5 +344,6 @@
          </container>
       </div>
    </footer>
+   <script src="js/sb-comments.js"></script>
 </body>
 </html>

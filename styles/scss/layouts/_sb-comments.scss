@@ -1,0 +1,81 @@
+.sb-comments {
+
+		&__list {
+         width: 100%;
+         display: flex;
+         flex-direction: column;
+         gap: rem(25);
+		}
+
+		&__item {
+         display: flex;
+         align-items: flex-start;
+         gap: rem(20);
+		}
+
+		&__avatar {
+         width: rem(73);
+         height: rem(73);
+		}
+
+      &__content{
+         width: 100%;
+         display: flex;
+         flex-direction: column;
+         gap: rem(20);
+      }
+
+      &__info{
+         width: 100%;
+         display: flex;
+         justify-content: space-between;
+      }
+
+      &__profile{
+         display: flex;
+         flex-direction: column;
+         gap: rem(20);
+      }
+
+      &__reply{
+         font-family: $first-family;
+         font-weight: 500;
+         font-size: rem(14);
+         letter-spacing: 0.02em;
+         text-transform: capitalize;
+         color: $p-pink;
+      }
+
+		&__name {
+         font-family: $second-family;
+         font-weight: 700;
+         font-size: rem(30);
+         letter-spacing: 0.02em;
+         text-transform: capitalize;
+         color: $navy;
+		}
+
+		&__date {
+         font-family: $first-family;
+         font-weight: 500;
+         font-size: rem(14);
+         letter-spacing: 0.03em;
+         text-transform: capitalize;
+         color: #515f75;
+		}
+
+		&__message {
+         display: flex;
+         flex-direction: column;
+         gap: rem(30);
+         font-family: $first-family;
+         font-weight: 400;
+         font-size: rem(16);
+         line-height: 138%;
+         color: #05152e;
+		}
+      &__btn{
+         margin-top: rem(55);
+      }
+}
+
