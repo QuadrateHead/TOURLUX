@@ -1,0 +1,33 @@
+.error404 {
+   background: url("../../../img/images/BG\ Image.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: rem(70);
+		&__heading {
+         font-family: $third-family;
+         font-weight: 700;
+         font-size: rem(200);
+         line-height: (137/200)*100%;
+         letter-spacing: 0.02em;
+         text-transform: uppercase;
+         color: $white;
+		}
+
+		&__subtitle {
+         font-family: $second-family;
+         font-weight: 700;
+         font-size: rem(60);
+         line-height: (49/60)*100%;
+         letter-spacing: 0.02em;
+         text-transform: uppercase;
+         color: $white;
+		}
+}
+
