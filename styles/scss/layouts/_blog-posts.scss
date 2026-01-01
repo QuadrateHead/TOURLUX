@@ -1,6 +1,21 @@
 .blog-posts {
-	display: flex;
+	display: grid;
+	grid-template-columns: (483/1200)*100% (328/1200)*100% (328/1200)*100%;
+	grid-template-rows: rem(235) rem(235);
 	gap: rem(30);
+	grid-template-areas: 
+	"box-1 box-2 box-3"
+	"box-1 box-4 box-5"
+	;
+	@media (max-width:900px) {
+		grid-template-columns: (483*1200/900/1200)*100% (328*1200/900/1200)*100%;
+		grid-template-rows: rem(235) rem(235) rem(235);
+		grid-template-areas: 
+		"box-1 box-2"
+		"box-1 box-3"
+		"box-4 box-5"
+		;
+	}
 	margin-top: rem(120);
 		&__posts {
 			&--main {
@@ -10,8 +25,6 @@
 				display: flex;
 				flex-direction: column;
 				justify-content: flex-end;
-				width: (483/1200)*100%;
-				height: rem(500);
 				border-radius: rem(5);
 				padding: 0 rem(51) rem(35) rem(30);
 				gap: rem(18);
@@ -29,37 +42,12 @@
 				display: flex;
 				flex-direction: column;
 				justify-content: flex-end;
-				width: (328/687)*100%;
-				height: rem(235);
 				border-radius: rem(5);
 				padding: 0 rem(29) rem(25) rem(25);
-				
+				gap: rem(9.47);
 				& .blog-posts__content{
 					font-size: rem(16);
 					line-height: (39/32)*100%;
-				}
-			}
-		}
-
-		&__post-block {
-			display: flex;
-			flex-direction: column;
-			width: (687/1200)*100%;
-			gap: rem(30);
-		}
-
-		&__post-line {
-			display: flex;
-			gap: rem(30);
-			&--1 {
-				& .blog-posts__posts--other{
-					gap: rem(9.47);
-				}
-			}
-
-			&--2 {
-				& .blog-posts__posts--other{
-					gap: rem(11);
 				}
 			}
 		}
