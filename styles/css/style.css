@@ -232,12 +232,12 @@ input[type=file] {
 }
 @media (max-width: 1080px) {
   html {
-    font-size: 9px;
+    font-size: 13.3px;
   }
 }
 @media (max-width: 600px) {
   html {
-    font-size: 5px;
+    font-size: 13.3px;
   }
 }
 .global-container {
@@ -463,6 +463,18 @@ input[type=file] {
 .single-blog__add-content .newsletter__btn > img {
   height: 1.5625rem;
   width: 1.5625rem;
+}
+
+.authorpage__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 7.5rem;
+  gap: 7.5rem;
 }
 
 .error404 {
@@ -3717,4 +3729,76 @@ input[type=file] {
 }
 .sb-comments__btn {
   margin-top: 3.4375rem;
+}
+
+.authors {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.875rem;
+}
+@media (max-width: 1000px) {
+  .authors {
+    grid-template-columns: 1fr;
+  }
+  .authors__per {
+    margin-bottom: 1.25rem;
+  }
+}
+.authors__author {
+  -webkit-box-shadow: 0 0 1.5625rem 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 1.5625rem 0 rgba(0, 0, 0, 0.05);
+  background: #FFFFFF;
+  border-radius: 0.3125rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.875rem;
+  gap: 9.0598290598%;
+}
+.authors__content {
+  padding: 0.3125rem 0;
+}
+.authors__per {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 1.875rem;
+  line-height: 83.3333333333%;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #061A3A;
+  margin-bottom: 1.25rem;
+}
+@media (max-width: 1000px) {
+  .authors__per {
+    margin-bottom: 1.25rem;
+  }
+}
+.authors__rewards {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 72.2222222222%;
+  letter-spacing: 0.02em;
+  color: #515f75;
+  margin-bottom: 1.6875rem;
+}
+@media (max-width: 1000px) {
+  .authors__rewards {
+    margin-bottom: 1.6875rem;
+  }
+}
+.authors__desc {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 114.5833333333%;
+  color: #05152e;
+}
+.authors__photo {
+  border-radius: 0.3125rem;
+  width: 10.625rem;
+  height: 9.375rem;
 }
