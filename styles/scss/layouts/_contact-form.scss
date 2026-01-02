@@ -1,0 +1,78 @@
+.contact-form {
+   width: 100%;
+   background: url("../../img/images/contact-form/BGImage.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+		&__block {
+         width: rem(585);
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         gap: rem(50);
+         padding: rem(83) 0;
+		}
+
+		&__heading {
+         font-family: $second-family;
+         font-weight: 700;
+         font-size: rem(50);
+         line-height: (43/50)*100%;
+         letter-spacing: 0.03em;
+         text-transform: capitalize;
+         color: $white;
+		}
+
+		&__form {
+         display: flex;
+         flex-direction: column;
+         width: 100%;
+         gap: rem(20);
+		}
+
+		&__input {
+         backdrop-filter: blur(rem(10));
+         box-shadow: 0 0 rem(24) 0 rgba(0, 0, 0, 0.07);
+         background: rgba(6, 26, 58, 0.5);
+         border-radius: rem(5);
+         padding: rem(15.5) rem(20);
+
+         font-family: $first-family;
+         font-weight: 500;
+         font-size: rem(12);
+         letter-spacing: 0.02em;
+         text-transform: capitalize;
+         color: $white;
+         &::placeholder{
+            opacity: 1;
+            font-family: $first-family;
+            font-weight: 500;
+            font-size: rem(12);
+            letter-spacing: 0.02em;
+            text-transform: capitalize;
+            color: $white;
+         }
+		}
+
+		&__name {
+		}
+
+		&__email {
+		}
+
+		&__tel {
+		}
+
+		&__message {
+         height: rem(150);
+		}
+
+		&__btn {
+         width: 100%;
+         margin-top: rem(10);
+		}
+}
+

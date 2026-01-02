@@ -1,0 +1,56 @@
+.gmail-address {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: rem(30);
+   padding-bottom: rem(120);
+   padding-top: rem(120);
+   @media (max-width: 900px){
+      grid-template-columns: 1fr;
+   }
+		&__content-block {
+         display: flex;
+         flex-direction: column;
+         box-shadow: 0 0 rem(25) 0 rgba(0, 0, 0, 0.05);
+         background: $white;
+         border-radius: rem(5);
+         padding: rem(36);
+		}
+
+		&__title {
+         font-family: $second-family;
+         font-weight: 700;
+         font-size: rem(30);
+         line-height: (40/30)*100%;
+         letter-spacing: 0.03em;
+         text-transform: capitalize;
+         color: $navy;
+         margin-bottom: rem(26);
+		}
+
+		&__subtitle {
+         font-family: $first-family;
+         font-weight: 400;
+         font-size: rem(16);
+         line-height: (44/32)*100%;
+         text-transform: capitalize;
+         color: $navy;
+         margin-bottom: rem(18);
+		}
+
+		&__info {
+         display: flex;
+         align-items: center;
+         gap: rem(15);
+         
+		}
+
+		&__text {
+         font-family: $first-family;
+         font-weight: 600;
+         font-size: rem(17);
+         letter-spacing: 0.02em;
+         text-transform: lowercase;
+         color: $navy;
+		}
+}
+

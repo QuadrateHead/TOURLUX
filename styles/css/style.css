@@ -4042,3 +4042,189 @@ input[type=file] {
 .ask-form__submit {
   margin-top: 0.625rem;
 }
+
+.gmail-address {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.875rem;
+  padding-bottom: 7.5rem;
+  padding-top: 7.5rem;
+}
+@media (max-width: 900px) {
+  .gmail-address {
+    grid-template-columns: 1fr;
+  }
+}
+.gmail-address__content-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 0 0 1.5625rem 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 1.5625rem 0 rgba(0, 0, 0, 0.05);
+  background: #FFFFFF;
+  border-radius: 0.3125rem;
+  padding: 2.25rem;
+}
+.gmail-address__title {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 1.875rem;
+  line-height: 133.3333333333%;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  color: #061A3A;
+  margin-bottom: 1.625rem;
+}
+.gmail-address__subtitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 137.5%;
+  text-transform: capitalize;
+  color: #061A3A;
+  margin-bottom: 1.125rem;
+}
+.gmail-address__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.9375rem;
+}
+.gmail-address__text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.0625rem;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  color: #061A3A;
+}
+
+.contact-form {
+  width: 100%;
+  background: url("../../img/images/contact-form/BGImage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contact-form__block {
+  width: 36.5625rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 3.125rem;
+  padding: 5.1875rem 0;
+}
+.contact-form__heading {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 3.125rem;
+  line-height: 86%;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.contact-form__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  gap: 1.25rem;
+}
+.contact-form__input {
+  backdrop-filter: blur(0.625rem);
+  -webkit-box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.07);
+          box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.07);
+  background: rgba(6, 26, 58, 0.5);
+  border-radius: 0.3125rem;
+  padding: 0.96875rem 1.25rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.contact-form__input::-webkit-input-placeholder {
+  opacity: 1;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.contact-form__input::-moz-placeholder {
+  opacity: 1;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.contact-form__input:-ms-input-placeholder {
+  opacity: 1;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.contact-form__input::-ms-input-placeholder {
+  opacity: 1;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.contact-form__input::placeholder {
+  opacity: 1;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.contact-form__message {
+  height: 9.375rem;
+}
+.contact-form__btn {
+  width: 100%;
+  margin-top: 0.625rem;
+}
+
+.map {
+  width: 100%;
+}
