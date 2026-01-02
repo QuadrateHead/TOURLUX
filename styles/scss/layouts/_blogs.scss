@@ -4,12 +4,16 @@
    flex-direction: column;
    gap: rem(30);
 		&__line {
-         display: flex;
+         display: grid;
+         grid-template-columns: 1fr 1fr;
          width: 100%;
          gap: rem(30);
+         @media (max-width: 1080px){
+            grid-template-columns: 1fr;
+         }
          & .our-blog__list-item{
             max-width: rem(380);
-            width: (380/790)*100%;
+            width: auto;
          }
 		}
 

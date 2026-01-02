@@ -300,16 +300,24 @@ input[type=file] {
   gap: 1.875rem;
 }
 
+.our-blogs__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 .our-blogs__main-block {
   margin-top: 6.25rem;
   margin-bottom: 8.5rem;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 20.625rem;
   gap: 5rem;
 }
 
@@ -1860,6 +1868,13 @@ input[type=file] {
 }
 .our-blog__list-item {
   width: 31.6666666667%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .our-blog__img {
   -o-object-fit: scale-down;
@@ -1873,11 +1888,11 @@ input[type=file] {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   gap: 1.25rem;
   padding: 1.875rem 1.8125rem 1.5625rem 1.5625rem;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 .our-blog__byline {
   display: -webkit-box;
@@ -3102,15 +3117,19 @@ input[type=file] {
   gap: 1.875rem;
 }
 .blogs__line {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   width: 100%;
   gap: 1.875rem;
 }
+@media (max-width: 1080px) {
+  .blogs__line {
+    grid-template-columns: 1fr;
+  }
+}
 .blogs__line .our-blog__list-item {
   max-width: 23.75rem;
-  width: 48.1012658228%;
+  width: auto;
 }
 .blogs__slider {
   width: 17.375rem;
@@ -3165,7 +3184,6 @@ input[type=file] {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 20.625rem;
   gap: 2.5rem;
 }
 .blogs-info .offer {

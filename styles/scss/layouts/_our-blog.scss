@@ -54,6 +54,8 @@
 
 		&__list-item {
          width: (380/1200)*100%;
+         display: flex;
+         flex-direction: column;
 		}
 
 		&__img {
@@ -63,9 +65,9 @@
 		&__text-box {
          display: flex;
          flex-direction: column;
-         justify-content: space-between;
          gap: rem(20);
          padding: rem(30) rem(29) rem(25) rem(25);
+         flex-grow: 1;
 		}
 
 		&__byline {
@@ -96,6 +98,7 @@
          letter-spacing: 0.02em;
          text-transform: capitalize;
          color: $navy;
+         
 		}
 
 		&__btn {

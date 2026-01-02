@@ -1,11 +1,15 @@
 .our-blogs {
-
+      &__container{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+      }
 		&__main-block {
          margin-top: rem(100);
          margin-bottom: rem(136);
          width: 100%;
-         display: flex;
-         justify-content: space-between;
+         display: grid;
+         grid-template-columns: 1fr rem(330);
          gap: rem(80);
 		}
 }
