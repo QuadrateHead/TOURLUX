@@ -11,6 +11,7 @@
 @import "pages/our-blogs";
 @import "pages/single-blog";
 @import "pages/authors-tagspage";
+@import "pages/faq";
 @import "pages/404";
 //!Elemnts//
 @import "elements/buttons";
@@ -59,5 +60,8 @@
 @import "layouts/share";
 @import "layouts/sb-form";
 @import "layouts/sb-comments";
-//!Author//
+//!Author-Tags//
 @import "layouts/authors-tags";
+//!FAQ//
+@import "layouts/fa-questions";
+@import "layouts/ask-form";

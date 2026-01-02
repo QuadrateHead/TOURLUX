@@ -1,0 +1,104 @@
+.fa-questions {
+   display: flex;
+   flex-direction: column;
+   gap: rem(30);
+		&__item {
+         
+         display: flex;
+         flex-direction: column;
+         box-shadow: 0 0 rem(27) 0 rgba(0, 0, 0, 0.05);
+
+         background: $white;
+         &.open{
+            
+         }
+         &.open .fa-questions__question{
+            background: $navy;
+            border-top: rem(0.50) solid #000;
+            border-right: rem(0.50) solid #000;
+            border-left: rem(0.50) solid #000;
+            border-radius: rem(5) rem(5) 0 0;
+         }
+         &.open .fa-questions__title{
+            color: $white;
+         }
+         &.open .fa-questions__arrow{
+            width: rem(20);
+            height: rem(20);
+            background-color: $navy;
+            position: absolute;
+            transform: rotate(45deg);
+            right: rem(20);
+            bottom: rem(-11);
+            transition: transfrom 0.2s linear 0s;
+         }
+         &.open .fa-questions__answer{
+            max-height: rem(200);
+            padding: rem(20) rem(40) rem(20) rem(20);
+            opacity: 1;
+            visibility: visible;
+            border-radius: 0 0 rem(5) rem(5);
+            border-bottom: rem(0.50) solid #000;
+            border-right: rem(0.50) solid #000;
+            border-left: rem(0.50) solid #000;
+            transition: all 0.2s linear 0s;
+         }
+		}
+
+		&__question {
+         position: relative;
+         background: $white;
+         width: 100%;
+         padding: rem(15) rem(20);
+         border-top: rem(0.20) solid #000;
+         border-bottom: rem(0.20) solid #000;
+         border-right: rem(0.20) solid #000;
+         border-left: rem(0.20) solid #000;
+         border-radius: rem(5);
+         cursor: pointer;
+		}
+
+		&__title {
+         font-family: $first-family;
+         font-weight: 500;
+         font-size: rem(20);
+         line-height: (30/20)*100%;
+         letter-spacing: 0.02em;
+         text-transform: capitalize;
+         color: $navy;
+         cursor: pointer;
+		}
+
+		&__arrow {
+         width: rem(20);
+         height: rem(0);
+         background-color: $navy;
+         position: absolute;
+         transform: rotate(45deg) translateY(rem(-24));
+         right: rem(20);
+         bottom: rem(-11);
+         transition: transfrom 0.1s linear 0s;
+		}
+
+		&__answer {
+         
+         opacity: 0;
+         overflow: hidden;
+         visibility: hidden;
+         max-height: 0;
+         transition: all 0.1s linear 0s;
+         //position: absolute;
+         //top: 100%;
+         //left: 0;
+         //right: 0;
+		}
+
+		&__subtitle {
+         font-family: $first-family;
+         font-weight: 400;
+         font-size: rem(16);
+         line-height: (63/48)*100%;
+         text-transform: none;
+         color: #05152e;
+		}
+}

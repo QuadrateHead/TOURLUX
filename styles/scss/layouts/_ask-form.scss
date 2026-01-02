@@ -1,0 +1,61 @@
+.ask-form {
+   box-shadow: 0 0 rem(27) 0 rgba(0, 0, 0, 0.05);
+   border-radius: rem(5);
+   background: #fff2ef;
+   display: flex;
+   flex-direction: column;
+   gap: rem(30);
+   padding: rem(60) rem(61);
+		&__heading {
+         font-family: $first-family;
+         font-weight: 600;
+         font-size: rem(30);
+         line-height: (84/60)*100%;
+         letter-spacing: 0.02em;
+         text-transform: capitalize;
+         color: $navy;
+		}
+      
+		&__form {
+         display: flex;
+         flex-direction: column;
+         gap: rem(20);
+         
+		}
+
+      &__input{
+         background: #ffd8ce;
+         border-radius: rem(4);
+         padding: rem(13.5) rem(15);
+         font-family: $first-family;
+         font-weight: 400;
+         font-size: rem(12);
+         line-height: (9/12)*100%;
+         letter-spacing: 0.03em;
+         text-transform: capitalize;
+         color: $navy;
+         &::placeholder{
+            font-family: $first-family;
+            font-weight: 400;
+            font-size: rem(12);
+            line-height: (9/12)*100%;
+            letter-spacing: 0.03em;
+            text-transform: capitalize;
+            color: $navy;
+         }
+      }
+
+		&__name {
+		}
+
+		&__email {
+		}
+
+		&__question {
+         min-height: rem(120);
+		}
+
+		&__submit {
+         margin-top: rem(10);
+		}
+}

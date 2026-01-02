@@ -1,0 +1,17 @@
+.faq {
+
+		&__container {
+         display: flex;
+         flex-direction: column;
+         gap: rem(173);
+         margin-top: rem(120);
+		}
+
+		&__block {
+         display: grid;
+         grid-template-columns: 1fr rem(482);
+         gap: rem(80);
+		}
+}
+
+
