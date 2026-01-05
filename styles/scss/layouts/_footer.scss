@@ -50,7 +50,7 @@
 
     &__info {
         width: (278/1200)*100%;
-        margin-right: rem(131);
+        margin-right: (131/1200)*100%;
     }
 
     &__main-logo {
@@ -174,7 +174,7 @@
         font-family: $first-family;
         font-weight: 400;
         font-size: rem(15);
-        line-height: 133%;
+        //line-height: 133%;
         text-transform: capitalize;
         }
     }

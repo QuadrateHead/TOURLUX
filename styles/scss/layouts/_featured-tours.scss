@@ -54,13 +54,17 @@
          display: flex;
          flex-direction: row;
          justify-content: space-between;
+         flex-wrap: wrap;
          border-radius: rem(5);
          gap: rem(20);
       }
 		&__list-item {
-         width: (380/1200)*100%;
+         flex: 1 1 0;
          box-shadow: 0 0 rem(25) 0 rgba(0, 0, 0, 0.05);
          background: $white;
+         display: flex;
+         flex-direction: column;
+         min-width: 250px;
 		}
 
 		&__img {
@@ -71,9 +75,9 @@
       &__text-box{
          display: flex;
          flex-direction: column;
-         justify-content: space-between;
          gap: rem(20);
          padding: rem(25) rem(29) rem(25) rem(25);
+         
       }
 
 		&__description {
@@ -90,6 +94,7 @@
          font-size: rem(14);
          letter-spacing: 0.02em;
          color: $navy;
+         flex-grow: 1;
 		}
       
       &__price-block {

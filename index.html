@@ -43,30 +43,32 @@
                <a href="gallery.html" class="header__nav-links links-18 a--navy">Gallery</a>
                <a href="pages.html" class="header__nav-links links-18 a--navy">Pages</a>
             </nav>
-            <button class="header__get-started btn btn--navy">Get Started <img src="img/icons/btn/Arrow.svg" alt="" class="header__arrow arrow"></button>
+            <button class="header__btn-get-started btn btn--navy"><p class = "header__get-started">Get Started</p><img src="img/icons/btn/Arrow.svg" alt="" class="header__arrow arrow">
+            <img class = header__arrow--alter src="img/icons/btn/Group 23.svg" alt=""></button>
          </container>
       </div>
    </header>
-   <div class="hero">
-      <container class="global-container hero__title-slide">
-            <h1 class="hero__heading h1-85">Explore Your Travel</h1>
-            <p class="hero__subtitle p-20">Discover your next great adventure, become an explorer to get started!</p>
-            <form action="post" class="hero__form">
-               <label for="WhereTo?" class="hero__address--label">
-                  <img src="img/icons/hero/Location.svg" alt="" class="hero__address--icon">
-                  <input type="text" name="WhereTo?" id="WhereTo?" class = "hero__address--input p-16--form" placeholder="Where To?">
-               </label>
-               <!--Не решено-->
-               <label class="hero__date--label">
-                  <img src="img/icons/hero/Calender.svg" alt="" class="hero__date--icon">
-                  <input type="date" name="DD/MM/YY" id="DD/MM/YY" class = "hero__date--input p-16--form" placeholder="DD/MM/YY">
-               </label>
-               <label for="NumberOfPerson" class="hero__num--label">
-                  <img src="img/icons/hero/Person.svg" alt="" class="hero__num--icon">
-                  <input type="text" maxlength="2" name="NumberOfPerson" id="NumberOfPerson" class = "hero__num--input p-16--form"" placeholder = "Number Of Person">
-               </label>
-               <button class="btn btn--pink hero__btn">BOOK NOW<img src="img/icons/btn/Arrow.svg" alt="" class="arrow"></button>
-            </form>
+   <div class="hero global-container">
+      <container class = "hero__container">
+         <h1 class="hero__heading">Explore <br>Your Travel</h1>
+         <p class="hero__subtitle">Discover your next great adventure, become an explorer to get started!</p>
+         <form action="" method="get" class="hero__form">
+            <div class="hero__label">
+               <img src="img/icons/hero/Location.svg" alt="">
+               <input type="text" name="location" id="0" class="hero__input hero__location" placeholder="where to?">
+            </div>
+            <div class="hero__overlap"></div>
+            <div  class="hero__label hero__date">
+               <img src="img/icons/hero/Calender.svg" alt="">
+               <input type="date" class = "hero__input" name="date" id="0" placeholder="DD/mm/yy">
+            </div>
+            <div class="hero__overlap"></div>
+            <div class="hero__label hero__num-of-per">
+               <img src="img/icons/hero/Person.svg" alt="">
+               <input type="number" class = "hero__input" name="person" id="0" placeholder="number of person">
+            </div>
+            <button type="submit" class="btn btn--pink hero__btn">BOOK NOW <img src="img/icons/btn/Arrow.svg" alt="" class="arrow"></button>
+         </form>
       </container>
    </div>
    <div class="info">
@@ -164,7 +166,7 @@
                      <p class="featured-tours__description">Glacier Walk Combo</p>
                      <p class="featured-tours__duration">3 day I 4 night</p>
                      <div class="featured-tours__price-block">
-                        <button class="btn btn--w-pink featured-tours__btn">View Detail <img src="img/icons/btn/Arrow.svg" alt="" class="arrow"></button>
+                        <button class="btn btn--w-pink featured-tours__btn">View Detail <img src="img/icons/btn/Arrow--navy.svg" alt="" class="arrow"></button>
                         <p class="featured-tours__price">$225</p>
                      </div>
                   </div>
@@ -175,7 +177,7 @@
                      <p class="featured-tours__description">Venice Tour - Italy</p>
                      <p class="featured-tours__duration">10 day | 11 night</p>
                      <div class="featured-tours__price-block">
-                        <button class="btn btn--w-pink featured-tours__btn">View Detail <img src="img/icons/btn/Arrow.svg" alt="" class="arrow"></button>
+                        <button class="btn btn--w-pink featured-tours__btn">View Detail <img src="img/icons/btn/Arrow--navy.svg" alt="" class="arrow"></button>
                         <p class="featured-tours__price">$150</p>
                      </div>
                   </div>
@@ -305,8 +307,9 @@
          <a href="our-blogs.html" class="btn btn--pink our-blog__btn">View More <img src="img/icons/btn/Arrow.svg" alt="" class="arrow"></a>
       </container>
    </div>
-   <footer class="footer">
-      <div class="footer__contacts-section">
+   <!--Fix footer responsive-->
+   <footer class="footer" >
+      <div class="footer__contacts-section" >
          <container class="global-container footer__container--contacts">
             <div class="footer__info">
                <img src="img/icons/TourluxFooter.png" alt="" class="footer__main-logo">

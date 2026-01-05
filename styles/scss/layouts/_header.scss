@@ -79,6 +79,7 @@
 		}
 
       //Header//
+		//! Change nav for mobile to Burger Menu//
 		&__header {
          height: rem(100);
          display: flex;
@@ -99,10 +100,25 @@
 			
 		}
 
-		&__get-started {
+		&__btn-get-started {
 			display: flex;
 			gap: rem(13);
 		}
-
+		&__arrow{
+			&--alter{
+				display: none;
+			}
+		}
+		@media (max-width: 900px){
+			.header__arrow{
+				display: none;
+				&--alter{
+					display: block;
+				}
+			}
+			.header__get-started{
+				display: none;
+			}
+		}
 }
 
